@@ -1,0 +1,8 @@
+chromosome	position	EA	pval	phenotype
+3	141680482	CAAAAAAA	7.827312226781855e-7	Bpanel_exhaustedB_div_Bpanel_singlets_Frequency
+3	141680482	CAAAAAA	9.46993550457657e-7	Bpanel_exhaustedB_div_Bpanel_singlets_Frequency
+3	141189383	T	2.031442435901816e-7	Tpanel_Tregs_div_Tpanel_singlets_Frequency
+3	141189383	*	2.031442435901816e-7	Tpanel_Tregs_div_Tpanel_singlets_Frequency
+3	141189394	T	3.7365279415787685e-8	Tpanel_Tregs_div_Tpanel_singlets_Frequency
+3	141189394	C	4.4984459832126906e-8	Tpanel_Tregs_div_Tpanel_singlets_Frequency
+3	141215883	T	8.414356739165978e-7	Tpanel_Tregs_div_Tpanel_singlets_Frequency

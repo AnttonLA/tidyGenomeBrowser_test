@@ -1,0 +1,5 @@
+chromosome	position	EA	pval	phenotype
+15	86217844	A	9.872147591402997e-7	Bpanel_nonclassical_monocytes_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+15	86217756	G	8.368963626966256e-7	Bpanel_nonclassical_monocytes_div_Bpanel_singlets_Frequency
+15	86217844	A	2.685093698494203e-7	Bpanel_nonclassical_monocytes_div_Bpanel_singlets_Frequency
+15	86217899	A	5.232666045474302e-7	Bpanel_nonclassical_monocytes_div_Bpanel_singlets_Frequency

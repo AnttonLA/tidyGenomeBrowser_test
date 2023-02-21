@@ -1,0 +1,8 @@
+chromosome	position	EA	pval	phenotype
+7	18904716	G	5.931649176115281e-8	CD39Th9_div_Th9_Frequency
+7	18904721	G	6.10082333992222e-7	CD39Th9_div_Th9_Frequency
+7	19445614	C	8.754298246011057e-7	CXCR5pos_div_CD4pos_Frequency
+7	19445614	C	6.011330572718729e-8	Tpanel_CXCR5pos_div_Tpanel_CD3pos_Frequency
+7	19457818	C	7.818313803193009e-7	Tpanel_CXCR5pos_div_Tpanel_CD3pos_Frequency
+7	19445614	C	6.395885351828627e-7	Tpanel_Follicular_Ths_div_Tpanel_CD3pos_Frequency
+7	19457818	C	6.401834303206124e-7	Tpanel_Follicular_Ths_div_Tpanel_CD3pos_Frequency

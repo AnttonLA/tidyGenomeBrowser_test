@@ -1,0 +1,3 @@
+chromosome	position	EA	pval	phenotype
+16	7122944	T	9.494982824572019e-7	CD8pos_HLADRpos_div_CD8pos_Frequency
+16	7205515	GAAA	8.059824666920325e-7	effector_CD8pos_HLADRpos_div_effector_CD8pos_Frequency

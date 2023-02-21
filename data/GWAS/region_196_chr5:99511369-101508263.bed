@@ -1,0 +1,5 @@
+chromosome	position	EA	pval	phenotype
+5	100011369	AT	9.123478215266449e-7	Bpanel_doublePosNK_div_Bpanel_CD45pos_Frequency
+5	100024679	C	8.99267376446996e-7	Bpanel_doublePosNK_div_Bpanel_CD45pos_Frequency
+5	101008263	T	5.353981656691234e-7	Th17_HLADRpos_div_Th17_Frequency
+5	100208029	AATATATATATATATATATATAT	3.156573681750395e-7	restingCD194posTreg_HLADRpos_div_restingCD194posTreg_Frequency

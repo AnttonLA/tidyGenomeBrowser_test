@@ -1,0 +1,5 @@
+chromosome	position	EA	pval	phenotype
+22	45857218	A	4.5586550585836065e-7	Bpanel_switchB_div_Bpanel_singlets_Frequency
+22	46584077	A	2.145807285403213e-7	restingTreg_HLADRpos_div_restingTreg_Frequency
+22	46585525	A	9.305681804726409e-8	restingTreg_HLADRpos_div_restingTreg_Frequency
+22	46669635	A	6.774369859008572e-7	restingTreg_HLADRpos_div_restingTreg_Frequency

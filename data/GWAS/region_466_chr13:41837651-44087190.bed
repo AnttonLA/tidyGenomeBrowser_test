@@ -1,0 +1,5 @@
+chromosome	position	EA	pval	phenotype
+13	42337651	A	8.232713485717616e-7	CD19pos_HLADRpos_div_CD19pos_Frequency
+13	42557547	C	4.679195446709815e-7	CD19pos_HLADRpos_div_CD19pos_Frequency
+13	43502779	G	9.138433554721872e-7	HLADRposMonocytes_div_monocytes_Frequency
+13	43587190	C	6.192405636255301e-7	HLADRposMonocytes_div_monocytes_Frequency

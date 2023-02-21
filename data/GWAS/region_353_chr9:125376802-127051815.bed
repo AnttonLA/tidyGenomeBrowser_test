@@ -1,0 +1,5 @@
+chromosome	position	EA	pval	phenotype
+9	126551815	G	7.574157418826684e-7	CD39Th1Th17_div_Th1Th17_Frequency
+9	125876802	CTTTTTTT	3.368502598290451e-7	CD39central_memory_CD8pos_div_central_memory_CD8pos_Frequency
+9	126264328	T	6.464557100210217e-7	CD39restingCD194posTreg_div_restingCD194posTreg_Frequency
+9	126264330	A	7.187945567441398e-7	CD39restingCD194posTreg_div_restingCD194posTreg_Frequency

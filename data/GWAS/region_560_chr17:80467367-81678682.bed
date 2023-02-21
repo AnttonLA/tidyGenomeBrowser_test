@@ -1,0 +1,14 @@
+chromosome	position	EA	pval	phenotype
+17	81178682	G	8.433114553963588e-7	Bpanel_naiveB_div_Bpanel_singlets_Frequency
+17	80967367	C	1.2978618757067517e-7	CD3pos_HLADRpos_div_CD3pos_Frequency
+17	80967367	T	1.2978618757067517e-7	CD3pos_HLADRpos_div_CD3pos_Frequency
+17	80967367	C	5.6217557212541877e-8	CD4pos_HLADRpos_div_CD4pos_Frequency
+17	80967367	T	5.6217557212541877e-8	CD4pos_HLADRpos_div_CD4pos_Frequency
+17	80967367	C	2.4387603353393034e-7	CD8pos_HLADRpos_div_CD8pos_Frequency
+17	80967367	T	2.4387603353393034e-7	CD8pos_HLADRpos_div_CD8pos_Frequency
+17	80967367	C	4.1313118526519813e-7	Tregs_HLADRpos_div_Tregs_Frequency
+17	80967367	T	4.1313118526519813e-7	Tregs_HLADRpos_div_Tregs_Frequency
+17	80967367	C	1.0603238617577722e-7	effector_CD8pos_HLADRpos_div_effector_CD8pos_Frequency
+17	80967367	T	1.0603238617577722e-7	effector_CD8pos_HLADRpos_div_effector_CD8pos_Frequency
+17	80967367	C	6.616662249731733e-7	naive_CD4pos_HLADRpos_div_naive_CD4pos_Frequency
+17	80967367	T	6.616662249731733e-7	naive_CD4pos_HLADRpos_div_naive_CD4pos_Frequency

@@ -1,0 +1,4 @@
+chromosome	position	EA	pval	phenotype
+1	62913356	A	4.794391213829241e-7	restingTreg_HLADRpos_div_restingTreg_Frequency
+1	62913360	T	1.3870963314424695e-7	restingTreg_HLADRpos_div_restingTreg_Frequency
+1	62913360	G	5.4877518709345533e-8	restingTreg_HLADRpos_div_restingTreg_Frequency

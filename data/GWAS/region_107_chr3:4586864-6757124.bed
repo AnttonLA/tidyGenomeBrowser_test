@@ -1,0 +1,12 @@
+chromosome	position	EA	pval	phenotype
+3	6257124	G	6.5959866826732e-7	CD39secretingCD194posTreg_div_secretingCD194posTreg_Frequency
+3	5435687	GTT	3.558261255215889e-7	HLADRposMonocytes_div_monocytes_Frequency
+3	5435687	GTT	2.1525895094725615e-7	classical_monocytes_HLADRpos_div_classical_monocytes_Frequency
+3	5086864	A	7.256478909245687e-7	effector_CD8pos_div_CD8pos_Frequency
+3	5087336	T	5.684542186111914e-7	effector_CD8pos_div_CD8pos_Frequency
+3	5087338	G	5.68686881282597e-7	effector_CD8pos_div_CD8pos_Frequency
+3	5089500	G	3.157950416793602e-7	effector_CD8pos_div_CD8pos_Frequency
+3	5090263	A	3.0977071357529995e-7	effector_CD8pos_div_CD8pos_Frequency
+3	5090855	C	2.494525774732931e-7	effector_CD8pos_div_CD8pos_Frequency
+3	5091794	CAAA	1.768295017552777e-7	effector_CD8pos_div_CD8pos_Frequency
+3	5091794	CAA	1.197956506864178e-7	effector_CD8pos_div_CD8pos_Frequency

@@ -1,0 +1,6 @@
+chromosome	position	EA	pval	phenotype
+5	131130262	CATAT	9.433541990401242e-7	CD39Th2_div_Th2_Frequency
+5	131130262	CATAT	4.780780299135368e-7	CD39central_memory_CD4pos_div_central_memory_CD4pos_Frequency
+5	131130262	CATAT	7.916353122970243e-7	CD39secretingCD194posTreg_div_secretingCD194posTreg_Frequency
+5	131188409	T	2.450215289424425e-7	CD56posNKT_HLADRpos_div_CD56posNKT_Frequency
+5	131188409	TA	2.2682264938517861e-7	CD56posNKT_HLADRpos_div_CD56posNKT_Frequency

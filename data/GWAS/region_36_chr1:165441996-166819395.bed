@@ -1,0 +1,5 @@
+chromosome	position	EA	pval	phenotype
+1	165941996	A	4.8348337374961344e-8	Tpanel_effector_CD4pos_div_Tpanel_CD3pos_Frequency
+1	166246664	A	9.463568532856754e-7	Tpanel_effector_CD4pos_div_Tpanel_CD3pos_Frequency
+1	166252388	T	9.774531119387565e-7	Tpanel_effector_CD4pos_div_Tpanel_CD3pos_Frequency
+1	166319395	C	6.528725905515055e-7	Tpanel_effector_CD4pos_div_Tpanel_CD3pos_Frequency

@@ -1,0 +1,11 @@
+chromosome	position	EA	pval	phenotype
+22	28228331	C	1.180303011564853e-7	Bpanel_CD56negCD16posNK_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+22	28229303	A	7.849566115732866e-8	Bpanel_CD56negCD16posNK_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+22	28228331	C	2.696259284237494e-7	Bpanel_CD56negCD16posNK_div_Bpanel_singlets_Frequency
+22	28229303	A	1.5999743065862595e-7	Bpanel_CD56negCD16posNK_div_Bpanel_singlets_Frequency
+22	27122853	C	9.069881481206498e-7	central_memory_CD8pos_div_CD8pos_Frequency
+22	27122853	T	9.069881481206498e-7	central_memory_CD8pos_div_CD8pos_Frequency
+22	28071801	G	6.433981870987054e-7	secretingCD194posTreg_div_CD194pos_Frequency
+22	28074752	C	6.084818341012698e-7	secretingCD194posTreg_div_CD194pos_Frequency
+22	28074752	T	6.525210855706583e-7	secretingCD194posTreg_div_CD194pos_Frequency
+22	28079426	G	6.868114516878891e-7	secretingCD194posTreg_div_CD194pos_Frequency

@@ -1,0 +1,3 @@
+chromosome	position	EA	pval	phenotype
+20	8463146	AGTGTGTGT	3.7101517591400775e-7	CD56posNKT_HLADRpos_div_CD56posNKT_Frequency
+20	8556656	GGTGTGTGTGTGTGT	8.853073695935276e-7	effector_memory_CD4pos_div_CD4pos_Frequency

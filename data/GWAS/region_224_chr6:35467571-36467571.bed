@@ -1,0 +1,5 @@
+chromosome	position	EA	pval	phenotype
+6	35967571	C	5.723093929172043e-7	IgApos_HLADRpos_div_IgAPos_Frequency
+6	35967571	T	5.731925425241856e-7	IgApos_HLADRpos_div_IgAPos_Frequency
+6	35967571	C	3.988843048464065e-7	switchB_HLADRpos_div_switchB_Frequency
+6	35967571	T	3.994400717660355e-7	switchB_HLADRpos_div_switchB_Frequency

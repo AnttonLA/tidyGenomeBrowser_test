@@ -1,0 +1,6 @@
+chromosome	position	EA	pval	phenotype
+6	131955764	G	5.940524890605978e-7	preSwitchB_HLADRpos_div_preSwitchB_Frequency
+6	131956078	A	8.595514697917181e-7	preSwitchB_HLADRpos_div_preSwitchB_Frequency
+6	131956291	G	7.869759644966768e-7	preSwitchB_HLADRpos_div_preSwitchB_Frequency
+6	131956660	GA	6.291153527057483e-7	preSwitchB_HLADRpos_div_preSwitchB_Frequency
+6	131956662	T	5.811893669965482e-7	preSwitchB_HLADRpos_div_preSwitchB_Frequency

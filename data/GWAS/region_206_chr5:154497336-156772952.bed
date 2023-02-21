@@ -1,0 +1,5 @@
+chromosome	position	EA	pval	phenotype
+5	154997336	T	9.461509404924616e-7	CD4pos_HLADRpos_div_CD4pos_Frequency
+5	155474496	G	8.532808876481139e-8	P1activatedTreg_HLADRpos_div_P1activatedTreg_Frequency
+5	156272952	C	7.234999894443127e-7	Th2_HLADRpos_div_Th2_Frequency
+5	155474496	G	4.078346216655629e-7	activatedTreg_HLADRpos_div_activatedTreg_Frequency

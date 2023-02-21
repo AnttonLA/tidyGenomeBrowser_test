@@ -1,0 +1,6 @@
+chromosome	position	EA	pval	phenotype
+1	111763572	C	9.577197009696715e-7	HLADRposMonocytes_div_monocytes_Frequency
+1	111763572	CA	9.577197009696715e-7	HLADRposMonocytes_div_monocytes_Frequency
+1	112760544	GTAATAA	9.711311546799545e-7	Tpanel_Th1Th17_div_Tpanel_CD3pos_Frequency
+1	111367113	C	9.646587901487816e-7	central_memory_CD4pos_HLADRpos_div_central_memory_CD4pos_Frequency
+1	111457007	G	7.658879519140857e-7	central_memory_CD4pos_HLADRpos_div_central_memory_CD4pos_Frequency

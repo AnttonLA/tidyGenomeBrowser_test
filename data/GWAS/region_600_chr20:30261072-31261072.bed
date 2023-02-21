@@ -1,0 +1,5 @@
+chromosome	position	EA	pval	phenotype
+20	30761072	C	8.242194474765365e-7	exhaustedB_HLADRpos_div_exhaustedB_Frequency
+20	30761072	T	7.769886735787833e-7	exhaustedB_HLADRpos_div_exhaustedB_Frequency
+20	30761072	C	8.506074886288768e-7	transitionals_HLADRpos_div_transitionals_Frequency
+20	30761072	T	8.778427636438848e-7	transitionals_HLADRpos_div_transitionals_Frequency

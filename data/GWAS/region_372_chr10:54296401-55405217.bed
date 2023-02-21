@@ -1,0 +1,4 @@
+chromosome	position	EA	pval	phenotype
+10	54905207	A	5.838357445935269e-7	Follicular_Ths_div_CXCR5pos_Frequency
+10	54905217	*	5.838357445935269e-7	Follicular_Ths_div_CXCR5pos_Frequency
+10	54796401	C	8.903318926049562e-7	Tpanel_naive_CD8pos_div_Tpanel_CD3pos_Frequency

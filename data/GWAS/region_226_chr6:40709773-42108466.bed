@@ -1,0 +1,6 @@
+chromosome	position	EA	pval	phenotype
+6	41209773	C	8.073652211151301e-7	CD39restingCD194posTreg_div_restingCD194posTreg_Frequency
+6	41607162	TATAAATAAATAAATAAATAA	9.483765872802109e-7	Th2_div_non_naive_T_Frequency
+6	41607204	T	5.893371790918105e-7	Th2_div_non_naive_T_Frequency
+6	41608466	TAAA	4.9856739078811e-7	Th2_div_non_naive_T_Frequency
+6	41459721	CA	5.121637159859253e-7	effector_CD4pos_div_CD4pos_Frequency

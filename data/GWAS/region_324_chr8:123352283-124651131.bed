@@ -1,0 +1,4 @@
+chromosome	position	EA	pval	phenotype
+8	123852283	G	1.234709403699244e-7	Tpanel_Th2_div_Tpanel_CD3pos_Frequency
+8	123852283	G	9.613102741096552e-7	Tpanel_Th2_div_Tpanel_CD4pos_Frequency
+8	124151131	TA	7.692325493794271e-7	exhaustedB_HLADRpos_div_exhaustedB_Frequency

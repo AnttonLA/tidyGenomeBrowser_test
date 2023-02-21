@@ -1,0 +1,7 @@
+chromosome	position	EA	pval	phenotype
+9	69234398	C	5.709293334633025e-7	CD194_Tregs_HLADRpos_div_CD194pos_Frequency
+9	69233787	AC	4.448892709073164e-7	P1activatedTreg_HLADRpos_div_P1activatedTreg_Frequency
+9	69233788	A	3.072651191014261e-7	P1activatedTreg_HLADRpos_div_P1activatedTreg_Frequency
+9	69234398	C	5.5735239162862144e-8	P1activatedTreg_HLADRpos_div_P1activatedTreg_Frequency
+9	69234398	C	1.6170979807700955e-7	activatedCD194posTreg_HLADRpos_div_activatedCD194posTreg_Frequency
+9	69234398	C	2.8443575878039484e-7	activatedTreg_HLADRpos_div_activatedTreg_Frequency

@@ -1,0 +1,14 @@
+chromosome	position	EA	pval	phenotype
+9	28744026	A	9.184105386485051e-7	CD39effector_memory_CD8pos_div_effector_memory_CD8pos_Frequency
+9	29865790	C	4.355124029871841e-7	CD39effector_memory_CD8pos_div_effector_memory_CD8pos_Frequency
+9	29033396	ATATC	1.0362106557097928e-7	Th17_div_non_naive_T_Frequency
+9	29066508	C	1.639872414886121e-7	Th17_div_non_naive_T_Frequency
+9	29079816	A	2.707398526191102e-7	Th17_div_non_naive_T_Frequency
+9	29124200	T	2.858298094007629e-7	Th17_div_non_naive_T_Frequency
+9	29126736	C	3.2790677060094294e-7	Th17_div_non_naive_T_Frequency
+9	29128713	C	2.491125938463492e-7	Th17_div_non_naive_T_Frequency
+9	29146124	A	1.324558186305721e-7	Th17_div_non_naive_T_Frequency
+9	29158193	AAC	5.014222950437973e-7	Th17_div_non_naive_T_Frequency
+9	29163499	T	4.7418901289568647e-7	Th17_div_non_naive_T_Frequency
+9	29033396	ATATC	4.952943633359765e-7	Tpanel_Th17_div_Tpanel_CD4pos_Frequency
+9	29146124	A	8.781960908581646e-7	Tpanel_Th17_div_Tpanel_CD4pos_Frequency

@@ -1,0 +1,13 @@
+chromosome	position	EA	pval	phenotype
+1	179001032	C	3.889430225586448e-9	CD39posCD4posCD8pos_div_CD4posCD8pos_Frequency
+1	179068053	A	7.317097453498044e-8	CD39posCD4posCD8pos_div_CD4posCD8pos_Frequency
+1	179077418	T	6.615426854821525e-8	CD39posCD4posCD8pos_div_CD4posCD8pos_Frequency
+1	179082873	T	8.398172426519104e-8	CD39posCD4posCD8pos_div_CD4posCD8pos_Frequency
+1	179096212	CTCT	5.347322565157345e-7	CD39posCD4posCD8pos_div_CD4posCD8pos_Frequency
+1	179123713	C	2.592220594513249e-7	CD39posCD4posCD8pos_div_CD4posCD8pos_Frequency
+1	179187677	C	5.015372163436698e-7	CD39posCD4posCD8pos_div_CD4posCD8pos_Frequency
+1	179224818	T	5.061610351078558e-7	CD39posCD4posCD8pos_div_CD4posCD8pos_Frequency
+1	179028909	A	6.879831763438437e-7	Tpanel_effector_CD4pos_div_Tpanel_CD3pos_Frequency
+1	179028909	G	6.879831763438437e-7	Tpanel_effector_CD4pos_div_Tpanel_CD3pos_Frequency
+1	179156101	T	7.305639790719991e-7	Tpanel_effector_CD4pos_div_Tpanel_CD3pos_Frequency
+1	179159930	A	3.1302589983580086e-7	Tpanel_effector_CD4pos_div_Tpanel_CD3pos_Frequency

@@ -1,0 +1,4 @@
+chromosome	position	EA	pval	phenotype
+12	124277727	C	4.127673892832353e-7	CD4CD8_doublepos_HLADRpos_div_CD4posCD8pos_Frequency
+12	124277727	T	4.150496206174545e-7	CD4CD8_doublepos_HLADRpos_div_CD4posCD8pos_Frequency
+12	124283938	AT	6.177367729316679e-7	CD4CD8_doublepos_HLADRpos_div_CD4posCD8pos_Frequency

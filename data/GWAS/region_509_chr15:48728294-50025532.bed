@@ -1,0 +1,6 @@
+chromosome	position	EA	pval	phenotype
+15	49228294	G	9.274691808378707e-7	P1secretingTreg_HLADRpos_div_P1secretingTreg_Frequency
+15	49488176	G	9.226651424524108e-7	P1secretingTreg_HLADRpos_div_P1secretingTreg_Frequency
+15	49228294	G	1.4487691014071562e-7	Tregs_HLADRpos_div_Tregs_Frequency
+15	49488176	G	1.435795829187575e-7	Tregs_HLADRpos_div_Tregs_Frequency
+15	49525532	A	2.1592826081421695e-7	Tregs_HLADRpos_div_Tregs_Frequency

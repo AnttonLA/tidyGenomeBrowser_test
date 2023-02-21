@@ -1,0 +1,6 @@
+chromosome	position	EA	pval	phenotype
+9	14216544	G	4.223356721535802e-7	Bpanel_cDC2_div_Bpanel_CD45pos_Frequency
+9	14216544	G	8.836149962099059e-7	Bpanel_cDC2_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+9	14216544	G	4.779704796292694e-7	Bpanel_cDC2_div_Bpanel_singlets_Frequency
+9	14219226	T	9.480121748298216e-7	Bpanel_cDC2_div_Bpanel_singlets_Frequency
+9	14219692	C	8.664843631996481e-7	Bpanel_cDC2_div_Bpanel_singlets_Frequency

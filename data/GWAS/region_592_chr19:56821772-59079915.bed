@@ -1,0 +1,5 @@
+chromosome	position	EA	pval	phenotype
+19	57956797	G	9.395893036183806e-7	CD4CD8_doubleneg_HLADRpos_div_CD4negCD8neg_Frequency
+19	58579915	C	5.658348933295004e-7	CXCR5pos_div_CD4pos_Frequency
+19	58579915	C	7.313355794921291e-7	Tpanel_CXCR5pos_div_Tpanel_CD3pos_Frequency
+19	57321772	A	8.685410509991376e-7	classical_monocytes_div_CD19neg_Frequency

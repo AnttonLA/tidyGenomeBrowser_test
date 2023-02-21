@@ -1,0 +1,7 @@
+chromosome	position	EA	pval	phenotype
+17	64034508	T	9.714386301864516e-8	Th9_div_non_naive_T_Frequency
+17	64034510	C	9.403917163914654e-8	Th9_div_non_naive_T_Frequency
+17	64034508	T	1.740762973744958e-8	Tpanel_Th9_div_Tpanel_CD3pos_Frequency
+17	64034510	C	1.696915819850118e-8	Tpanel_Th9_div_Tpanel_CD3pos_Frequency
+17	64034508	T	5.279344774246792e-8	Tpanel_Th9_div_Tpanel_CD4pos_Frequency
+17	64034510	C	5.1320653757682e-8	Tpanel_Th9_div_Tpanel_CD4pos_Frequency

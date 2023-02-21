@@ -1,0 +1,3 @@
+chromosome	position	EA	pval	phenotype
+6	20428503	A	6.752758670488392e-7	Tpanel_naive_CD8pos_div_Tpanel_CD3pos_Frequency
+6	20490233	T	5.092435360723883e-7	Tpanel_naive_CD8pos_div_Tpanel_CD3pos_Frequency

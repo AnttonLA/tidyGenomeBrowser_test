@@ -1,0 +1,5 @@
+chromosome	position	EA	pval	phenotype
+1	107761318	A	4.421307706121825e-7	P1activatedTreg_HLADRpos_div_P1activatedTreg_Frequency
+1	107767602	T	8.88850940523745e-7	P1activatedTreg_HLADRpos_div_P1activatedTreg_Frequency
+1	107761318	A	4.2620110442303957e-7	activatedTreg_HLADRpos_div_activatedTreg_Frequency
+1	107794279	G	8.427389615014369e-7	effector_memory_CD4pos_HLADRpos_div_effector_memory_CD4pos_Frequency

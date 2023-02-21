@@ -1,0 +1,6 @@
+chromosome	position	EA	pval	phenotype
+10	65212767	A	5.352699275196638e-8	Bpanel_classical_monocytes_div_Bpanel_CD45pos_Frequency
+10	65212769	*	5.3986293485524224e-8	Bpanel_classical_monocytes_div_Bpanel_CD45pos_Frequency
+10	65212767	A	1.5135148526148394e-7	classical_monocytes_div_CD19neg_Frequency
+10	65212769	*	1.5049131489382638e-7	classical_monocytes_div_CD19neg_Frequency
+10	65872908	C	4.6024040921342234e-7	naive_CD4pos_HLADRpos_div_naive_CD4pos_Frequency

@@ -1,0 +1,15 @@
+chromosome	position	EA	pval	phenotype
+2	240075800	C	5.445934232628833e-7	Bpanel_HLADRpos_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+2	240075800	T	3.7367070058940865e-7	Bpanel_HLADRpos_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+2	240075800	C	4.762895115040093e-7	Bpanel_HLADRpos_div_Bpanel_singlets_Frequency
+2	240075800	T	3.671116284550656e-7	Bpanel_HLADRpos_div_Bpanel_singlets_Frequency
+2	240104957	C	4.4529276041498695e-7	Bpanel_HLADRpos_div_Bpanel_singlets_Frequency
+2	240075800	C	8.333821936836471e-7	Bpanel_cDC2_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+2	240075800	T	5.658536751132501e-7	Bpanel_cDC2_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+2	240075800	C	9.472813112519409e-7	Bpanel_cDC2_div_Bpanel_singlets_Frequency
+2	240075800	T	7.207182174572002e-7	Bpanel_cDC2_div_Bpanel_singlets_Frequency
+2	240104957	C	6.204099979337461e-7	Bpanel_cDC2_div_Bpanel_singlets_Frequency
+2	240736963	T	3.1106541014547644e-7	Bpanel_switchB_div_Bpanel_CD45pos_Frequency
+2	240736963	T	4.696536679549394e-7	Bpanel_switchB_div_Bpanel_singlets_Frequency
+2	240681229	T	2.6821762515370775e-7	CD39effector_memory_CD8pos_div_effector_memory_CD8pos_Frequency
+2	240693523	A	5.805744444994823e-7	CD39effector_memory_CD8pos_div_effector_memory_CD8pos_Frequency

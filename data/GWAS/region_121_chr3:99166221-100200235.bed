@@ -1,0 +1,8 @@
+chromosome	position	EA	pval	phenotype
+3	99666221	A	6.529193367234955e-7	naive_CD8pos_HLADRpos_div_naive_CD8pos_Frequency
+3	99675185	G	6.459759452454152e-7	naive_CD8pos_HLADRpos_div_naive_CD8pos_Frequency
+3	99675185	T	6.459759452454152e-7	naive_CD8pos_HLADRpos_div_naive_CD8pos_Frequency
+3	99681697	T	6.531880228997571e-7	naive_CD8pos_HLADRpos_div_naive_CD8pos_Frequency
+3	99684961	G	6.61466109799714e-7	naive_CD8pos_HLADRpos_div_naive_CD8pos_Frequency
+3	99688224	A	6.734402635861681e-7	naive_CD8pos_HLADRpos_div_naive_CD8pos_Frequency
+3	99700235	T	6.93359400808864e-7	naive_CD8pos_HLADRpos_div_naive_CD8pos_Frequency

@@ -1,0 +1,10 @@
+chromosome	position	EA	pval	phenotype
+10	107824981	C	8.794103427312389e-7	Tpanel_effector_memory_CD8pos_div_Tpanel_CD4pos_Frequency
+10	107824982	G	8.794103427312389e-7	Tpanel_effector_memory_CD8pos_div_Tpanel_CD4pos_Frequency
+10	107824983	G	8.794103427312389e-7	Tpanel_effector_memory_CD8pos_div_Tpanel_CD4pos_Frequency
+10	107824983	T	8.794103427312389e-7	Tpanel_effector_memory_CD8pos_div_Tpanel_CD4pos_Frequency
+10	107824981	C	3.278928447367487e-7	effector_memory_CD8pos_div_CD8pos_Frequency
+10	107824982	G	3.278928447367487e-7	effector_memory_CD8pos_div_CD8pos_Frequency
+10	107824983	G	3.278928447367487e-7	effector_memory_CD8pos_div_CD8pos_Frequency
+10	107824983	T	3.278928447367487e-7	effector_memory_CD8pos_div_CD8pos_Frequency
+10	107913641	CGGGAAAA	8.467088975848718e-7	effector_memory_CD8pos_div_CD8pos_Frequency

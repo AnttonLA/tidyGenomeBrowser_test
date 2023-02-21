@@ -1,0 +1,3 @@
+chromosome	position	EA	pval	phenotype
+6	7599862	T	4.442931290200577e-7	Bpanel_exhaustedB_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+6	6646041	G	1.772737967815682e-8	CD39posCD4negCD8neg_div_CD4negCD8neg_Frequency

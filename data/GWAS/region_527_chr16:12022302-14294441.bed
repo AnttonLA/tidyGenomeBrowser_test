@@ -1,0 +1,11 @@
+chromosome	position	EA	pval	phenotype
+16	13138456	T	3.259402852918055e-7	CD39effector_CD4pos_div_effector_CD4pos_Frequency
+16	13138997	A	3.1952563233085704e-7	CD39effector_CD4pos_div_effector_CD4pos_Frequency
+16	13150030	TAAA	3.299489024595871e-8	CD39effector_CD4pos_div_effector_CD4pos_Frequency
+16	13150030	TA	4.6026760694613604e-7	CD39effector_CD4pos_div_effector_CD4pos_Frequency
+16	13788276	G	8.357487800823232e-7	Th1_div_non_naive_T_Frequency
+16	13788276	T	8.564157801349758e-7	Th1_div_non_naive_T_Frequency
+16	13794441	T	2.810614881883872e-7	Th1_div_non_naive_T_Frequency
+16	12522302	C	3.909115411537893e-7	activatedCD194posTreg_div_CD194pos_Frequency
+16	12522302	T	3.909115411537893e-7	activatedCD194posTreg_div_CD194pos_Frequency
+16	12523145	A	3.9004296372003133e-7	activatedCD194posTreg_div_CD194pos_Frequency

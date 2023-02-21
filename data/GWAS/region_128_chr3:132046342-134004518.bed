@@ -1,0 +1,9 @@
+chromosome	position	EA	pval	phenotype
+3	133476638	C	4.541195664567596e-7	Th1_div_non_naive_T_Frequency
+3	133476638	C	7.77874237695146e-8	Tpanel_Th1_div_Tpanel_CD3pos_Frequency
+3	133504518	A	5.810636781338482e-7	Tpanel_Th1_div_Tpanel_CD3pos_Frequency
+3	133476638	C	2.9717621859209335e-7	Tpanel_Th1_div_Tpanel_CD4pos_Frequency
+3	132546342	T	8.801142924189473e-7	switchB_HLADRpos_div_switchB_Frequency
+3	132552749	C	8.968279808150983e-7	switchB_HLADRpos_div_switchB_Frequency
+3	132572586	A	9.238810798325208e-7	switchB_HLADRpos_div_switchB_Frequency
+3	132591711	A	9.140963310912367e-7	switchB_HLADRpos_div_switchB_Frequency

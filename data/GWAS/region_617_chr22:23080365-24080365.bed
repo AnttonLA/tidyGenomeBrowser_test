@@ -1,0 +1,3 @@
+chromosome	position	EA	pval	phenotype
+22	23580365	A	3.4874769082436947e-9	Bpanel_naiveB_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+22	23580365	A	4.4651247561467715e-9	Bpanel_naiveB_div_Bpanel_singlets_Frequency

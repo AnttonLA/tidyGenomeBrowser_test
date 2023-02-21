@@ -1,0 +1,7 @@
+chromosome	position	EA	pval	phenotype
+7	82456376	C	6.720921271463895e-7	Bpanel_IgApos_div_Bpanel_singlets_Frequency
+7	82456551	C	5.789098134573869e-7	Bpanel_IgApos_div_Bpanel_singlets_Frequency
+7	82458143	A	6.053813733746e-7	Bpanel_IgApos_div_Bpanel_singlets_Frequency
+7	82462157	T	2.9164769084605296e-7	Bpanel_IgApos_div_Bpanel_singlets_Frequency
+7	82475385	CTTTTTTT	8.549101630012715e-7	Bpanel_IgApos_div_Bpanel_singlets_Frequency
+7	83138918	G	1.954091881625264e-7	CD39posCD4posCD8pos_div_CD4posCD8pos_Frequency

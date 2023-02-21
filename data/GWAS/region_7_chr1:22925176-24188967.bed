@@ -1,0 +1,6 @@
+chromosome	position	EA	pval	phenotype
+1	23688967	A	6.185663402129139e-7	P1activatedTreg_HLADRpos_div_P1activatedTreg_Frequency
+1	23652069	T	4.794754902452266e-8	Tpanel_Th1_div_Tpanel_CD3pos_Frequency
+1	23652069	T	1.4840184476934478e-7	Tpanel_Th1_div_Tpanel_CD4pos_Frequency
+1	23425176	C	7.744829271810924e-7	activatedTreg_HLADRpos_div_activatedTreg_Frequency
+1	23583218	G	7.142272887350962e-7	classical_monocytes_div_CD19neg_Frequency

@@ -1,0 +1,3 @@
+chromosome	position	EA	pval	phenotype
+1	26934113	G	3.41966021636898e-7	HLADRposMonocytes_div_monocytes_Frequency
+1	26934113	G	4.6173461090070306e-7	classical_monocytes_HLADRpos_div_classical_monocytes_Frequency

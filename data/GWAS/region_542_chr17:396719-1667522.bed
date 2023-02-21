@@ -1,0 +1,7 @@
+chromosome	position	EA	pval	phenotype
+17	896719	A	7.989698416768586e-7	Bpanel_preSwitchB_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+17	902261	T	2.1712232580765014e-7	Bpanel_preSwitchB_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+17	896719	A	6.608530987477086e-7	Bpanel_preSwitchB_div_Bpanel_singlets_Frequency
+17	902261	T	1.9835132362866971e-7	Bpanel_preSwitchB_div_Bpanel_singlets_Frequency
+17	1167522	T	2.971720638923427e-7	CXCR5pos_HLADRpos_div_CXCR5pos_Frequency
+17	1167522	T	9.882783109732654e-7	Follicular_Th_HLADRpos_div_Follicular_Ths_Frequency

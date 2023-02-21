@@ -1,0 +1,4 @@
+chromosome	position	EA	pval	phenotype
+13	60711042	C	2.3377922486954254e-7	Tpanel_CD39CD194Tregs_div_Tpanel_Tregs_Frequency
+13	61009013	T	2.802260219699472e-7	Tpanel_CD39CD194Tregs_div_Tpanel_Tregs_Frequency
+13	60976806	GGTGTGTGTGTGTGT	7.919041094437698e-7	non_naive_T_div_CD4pos_Frequency

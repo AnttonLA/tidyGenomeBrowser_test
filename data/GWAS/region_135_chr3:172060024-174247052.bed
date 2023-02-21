@@ -1,0 +1,5 @@
+chromosome	position	EA	pval	phenotype
+3	172922920	T	9.307995509908029e-7	Bpanel_cDC2_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+3	172924871	T	9.425260946701204e-7	Bpanel_cDC2_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+3	172560024	T	4.860550578604166e-7	Th1_div_non_naive_T_Frequency
+3	173747052	TTATATATA	9.088146061490387e-7	effector_memory_CD4pos_div_CD4pos_Frequency

@@ -1,0 +1,3 @@
+chromosome	position	EA	pval	phenotype
+14	63681714	T	8.916115829687904e-7	Tpanel_central_memory_CD8pos_pl_Tpanel_effector_memory_CD8pos_pl_Tpanel_effector_CD8pos_div_Tpanel_CD8pos_Frequency
+14	63681714	T	8.917027953802085e-7	naive_CD8pos_div_CD8pos_Frequency

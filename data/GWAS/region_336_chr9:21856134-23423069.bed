@@ -1,0 +1,15 @@
+chromosome	position	EA	pval	phenotype
+9	22793828	GA	5.119396353845455e-7	Th17_div_non_naive_T_Frequency
+9	22797944	T	1.7432722380558322e-7	Th17_div_non_naive_T_Frequency
+9	22805227	G	1.7498480491659495e-7	Th17_div_non_naive_T_Frequency
+9	22833192	A	1.467543464961918e-7	Th17_div_non_naive_T_Frequency
+9	22356134	A	3.9311418856620775e-7	Tpanel_Th17_div_Tpanel_CD3pos_Frequency
+9	22793828	GA	2.8606180401190673e-7	Tpanel_Th17_div_Tpanel_CD3pos_Frequency
+9	22797944	T	1.4787891352779224e-7	Tpanel_Th17_div_Tpanel_CD3pos_Frequency
+9	22805227	G	1.4850990853859766e-7	Tpanel_Th17_div_Tpanel_CD3pos_Frequency
+9	22833192	A	1.2425288618391892e-7	Tpanel_Th17_div_Tpanel_CD3pos_Frequency
+9	22356134	A	9.679928589103692e-7	Tpanel_Th17_div_Tpanel_CD4pos_Frequency
+9	22797944	T	4.428991221229459e-7	Tpanel_Th17_div_Tpanel_CD4pos_Frequency
+9	22805227	G	4.4899237686181223e-7	Tpanel_Th17_div_Tpanel_CD4pos_Frequency
+9	22833192	A	3.905671561380104e-7	Tpanel_Th17_div_Tpanel_CD4pos_Frequency
+9	22923069	GTA	7.382214520023409e-7	Tpanel_Th17_div_Tpanel_CD4pos_Frequency

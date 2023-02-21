@@ -1,0 +1,6 @@
+chromosome	position	EA	pval	phenotype
+18	52851822	T	9.442673787397641e-7	Bpanel_exhaustedB_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+18	52727686	A	1.4788105416881902e-7	restingCD194posTreg_div_CD194pos_Frequency
+18	52735415	C	1.5012266389765364e-7	restingCD194posTreg_div_CD194pos_Frequency
+18	52735415	T	1.5012266389765364e-7	restingCD194posTreg_div_CD194pos_Frequency
+18	52808708	T	1.340056218385938e-7	restingCD194posTreg_div_CD194pos_Frequency

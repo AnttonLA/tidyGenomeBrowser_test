@@ -1,0 +1,3 @@
+chromosome	position	EA	pval	phenotype
+12	93185210	C	7.065553159153263e-7	CD56posNKT_HLADRpos_div_CD56posNKT_Frequency
+12	93184256	A	9.99867022215405e-7	Tpanel_Th1Th17_div_Tpanel_CD4pos_Frequency

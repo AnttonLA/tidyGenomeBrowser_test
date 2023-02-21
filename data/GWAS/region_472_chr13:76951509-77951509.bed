@@ -1,0 +1,3 @@
+chromosome	position	EA	pval	phenotype
+13	77451509	G	7.799469486102054e-7	Bpanel_naiveB_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+13	77451509	G	9.059205726900662e-7	Bpanel_naiveB_div_Bpanel_singlets_Frequency

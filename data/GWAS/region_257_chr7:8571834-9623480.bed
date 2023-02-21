@@ -1,0 +1,7 @@
+chromosome	position	EA	pval	phenotype
+7	9071834	AACACACACAC	1.9534854630642095e-7	P1activatedTreg_HLADRpos_div_P1activatedTreg_Frequency
+7	9071834	AACACACACAC	9.682729372944008e-7	Th2_HLADRpos_div_Th2_Frequency
+7	9071834	AACACACACAC	8.495041219183289e-7	activatedCD194posTreg_HLADRpos_div_activatedCD194posTreg_Frequency
+7	9071834	AACACACACAC	8.191857472491441e-7	activatedTreg_HLADRpos_div_activatedTreg_Frequency
+7	9123412	AT	6.948436922763925e-7	exhaustedB_HLADRpos_div_exhaustedB_Frequency
+7	9123480	GTTTTTTT	7.33456557761771e-7	exhaustedB_HLADRpos_div_exhaustedB_Frequency

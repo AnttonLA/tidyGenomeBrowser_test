@@ -1,0 +1,4 @@
+chromosome	position	EA	pval	phenotype
+21	37051654	CA	4.775531467433692e-7	Bpanel_cDC2_div_Bpanel_CD45pos_Frequency
+21	36488220	C	9.172199210428869e-7	CD39effector_CD8pos_div_effector_CD8pos_Frequency
+21	36488220	CCCTT	9.288549784724523e-7	CD39effector_CD8pos_div_effector_CD8pos_Frequency

@@ -1,0 +1,5 @@
+chromosome	position	EA	pval	phenotype
+1	191777671	C	9.65147412873898e-7	Bpanel_CD56negCD16posNK_div_Bpanel_doublePosNKplBpanel_CD56negCD16posNKplBpanel_CD16negCD56posNK_Frequency
+1	192247710	A	4.799675756469645e-7	Bpanel_CD56negCD16posNK_div_Bpanel_doublePosNKplBpanel_CD56negCD16posNKplBpanel_CD16negCD56posNK_Frequency
+1	191777671	C	1.5760633161891964e-7	CD56negCD16posNK_div_CD14neg_Frequency
+1	192247710	A	9.139990244666278e-7	CD56negCD16posNK_div_CD14neg_Frequency

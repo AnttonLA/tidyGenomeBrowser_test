@@ -1,0 +1,5 @@
+chromosome	position	EA	pval	phenotype
+5	168237277	T	2.1329657721422348e-7	CD4pos_HLADRpos_div_CD4pos_Frequency
+5	168238037	T	1.9872230148794053e-7	CD4pos_HLADRpos_div_CD4pos_Frequency
+5	168258394	C	1.5389482175211084e-7	CD4pos_HLADRpos_div_CD4pos_Frequency
+5	168829117	C	8.274779010369919e-7	nonclassical_monocytes_HLADRpos_div_nonclassical_monocytes_Frequency

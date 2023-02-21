@@ -1,0 +1,7 @@
+chromosome	position	EA	pval	phenotype
+23	153979575	A	5.980566035274634e-7	exhaustedB_HLADRpos_div_exhaustedB_Frequency
+23	154845550	T	8.580207228307257e-7	exhaustedB_HLADRpos_div_exhaustedB_Frequency
+23	154845550	C	8.838343392814073e-7	exhaustedB_HLADRpos_div_exhaustedB_Frequency
+23	155000278	G	8.29994848329234e-7	exhaustedB_HLADRpos_div_exhaustedB_Frequency
+23	155662682	C	4.756400883045447e-7	exhaustedB_HLADRpos_div_exhaustedB_Frequency
+23	155767617	G	4.6545776696174194e-7	exhaustedB_HLADRpos_div_exhaustedB_Frequency

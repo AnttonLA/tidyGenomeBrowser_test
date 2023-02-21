@@ -1,0 +1,10 @@
+chromosome	position	EA	pval	phenotype
+20	17736441	G	3.9007954528998655e-7	CD39CD194Tregs_div_CD194pos_Frequency
+20	17736441	C	3.82058452110406e-7	CD39CD194Tregs_div_CD194pos_Frequency
+20	17746863	C	4.3017334110844705e-7	CD39CD194Tregs_div_CD194pos_Frequency
+20	17736441	G	3.9184194774992863e-7	CD39Tregs_div_Tregs_Frequency
+20	17736441	C	3.8420233466793975e-7	CD39Tregs_div_Tregs_Frequency
+20	17746863	C	3.977332563449296e-7	CD39Tregs_div_Tregs_Frequency
+20	17736441	G	2.3098922344942482e-7	CD39activatedCD194posTreg_div_activatedCD194posTreg_Frequency
+20	17736441	C	2.2626872938873984e-7	CD39activatedCD194posTreg_div_activatedCD194posTreg_Frequency
+20	17746863	C	2.467837378578891e-7	CD39activatedCD194posTreg_div_activatedCD194posTreg_Frequency

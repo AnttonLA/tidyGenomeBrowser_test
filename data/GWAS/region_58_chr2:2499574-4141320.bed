@@ -1,0 +1,4 @@
+chromosome	position	EA	pval	phenotype
+2	3641320	T	2.0597610930832136e-7	CD3pos_HLADRpos_div_CD3pos_Frequency
+2	3641320	T	5.91394341814375e-7	CD4pos_HLADRpos_div_CD4pos_Frequency
+2	2999574	ATATTT	9.819998774801863e-7	Th1_div_non_naive_T_Frequency

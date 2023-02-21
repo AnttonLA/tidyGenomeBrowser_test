@@ -1,0 +1,6 @@
+chromosome	position	EA	pval	phenotype
+19	32092945	A	3.8233568485782926e-7	plasmablasts_HLADRpos_div_plasmablasts_Frequency
+19	32097798	A	6.593933639930828e-7	plasmablasts_HLADRpos_div_plasmablasts_Frequency
+19	32098305	T	2.706165407257004e-7	plasmablasts_HLADRpos_div_plasmablasts_Frequency
+19	32099523	C	5.305065620653927e-7	plasmablasts_HLADRpos_div_plasmablasts_Frequency
+19	32099523	T	5.305065620653927e-7	plasmablasts_HLADRpos_div_plasmablasts_Frequency

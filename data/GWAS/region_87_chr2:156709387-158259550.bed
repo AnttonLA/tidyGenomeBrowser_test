@@ -1,0 +1,4 @@
+chromosome	position	EA	pval	phenotype
+2	157759550	T	5.777507759209181e-7	Th9_HLADRpos_div_Th9_Frequency
+2	157209387	T	5.704243946073579e-7	restingCD194posTreg_HLADRpos_div_restingCD194posTreg_Frequency
+2	157308228	G	2.276986703137608e-7	restingCD194posTreg_HLADRpos_div_restingCD194posTreg_Frequency

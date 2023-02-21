@@ -1,0 +1,9 @@
+chromosome	position	EA	pval	phenotype
+1	85970167	C	9.968680649404498e-7	Bpanel_HLADRpos_div_Bpanel_singlets_Frequency
+1	85912340	A	6.36832122541843e-7	Bpanel_pDC_div_Bpanel_singlets_Frequency
+1	85912340	AAAGCG	6.385418453095471e-7	Bpanel_pDC_div_Bpanel_singlets_Frequency
+1	85927394	T	9.928740270327552e-7	Bpanel_pDC_div_Bpanel_singlets_Frequency
+1	85931943	T	7.872787285256802e-7	Bpanel_pDC_div_Bpanel_singlets_Frequency
+1	85934064	A	9.766578891645513e-7	Bpanel_pDC_div_Bpanel_singlets_Frequency
+1	85948523	CAA	3.3872759712255056e-7	Bpanel_pDC_div_Bpanel_singlets_Frequency
+1	85970167	C	4.765330272845889e-7	Bpanel_pDC_div_Bpanel_singlets_Frequency

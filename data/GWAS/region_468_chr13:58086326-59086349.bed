@@ -1,0 +1,4 @@
+chromosome	position	EA	pval	phenotype
+13	58586326	T	4.7356406392540375e-7	central_memory_CD8pos_HLADRpos_div_central_memory_CD8pos_Frequency
+13	58586337	G	4.7356406392540375e-7	central_memory_CD8pos_HLADRpos_div_central_memory_CD8pos_Frequency
+13	58586349	A	4.7356406392540375e-7	central_memory_CD8pos_HLADRpos_div_central_memory_CD8pos_Frequency

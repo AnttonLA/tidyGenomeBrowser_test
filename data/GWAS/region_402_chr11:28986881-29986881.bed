@@ -1,0 +1,3 @@
+chromosome	position	EA	pval	phenotype
+11	29486881	ATGTGTGTGTG	5.738386133445962e-7	CXCR5pos_HLADRpos_div_CXCR5pos_Frequency
+11	29486881	ATGTGTGTGTG	6.406595464285762e-7	Follicular_Th_HLADRpos_div_Follicular_Ths_Frequency

@@ -1,0 +1,8 @@
+chromosome	position	EA	pval	phenotype
+11	72527544	G	3.272086610853681e-7	Bpanel_CD16negCD56posNK_div_Bpanel_CD45pos_Frequency
+11	72527544	A	3.272086610853681e-7	Bpanel_CD16negCD56posNK_div_Bpanel_CD45pos_Frequency
+11	72573442	C	9.833616539263105e-7	Bpanel_CD16negCD56posNK_div_Bpanel_CD45pos_Frequency
+11	72573442	CG	9.833616539263105e-7	Bpanel_CD16negCD56posNK_div_Bpanel_CD45pos_Frequency
+11	73296234	ATAT	2.1907927873289505e-7	Bpanel_CD16negCD56posNK_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+11	73296234	ATAT	3.1104430830014106e-7	Bpanel_CD16negCD56posNK_div_Bpanel_singlets_Frequency
+11	73296234	ATAT	3.144900584377178e-7	CD16negCD56posNK_div_CD14neg_Frequency

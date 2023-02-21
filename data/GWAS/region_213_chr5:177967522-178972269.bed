@@ -1,0 +1,5 @@
+chromosome	position	EA	pval	phenotype
+5	178472269	T	6.215800342809505e-7	Bpanel_switchB_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
+5	178472269	T	9.234728713397213e-7	Bpanel_switchB_div_Bpanel_singlets_Frequency
+5	178467522	C	6.682448977624199e-7	CD39Th2_div_Th2_Frequency
+5	178467522	C	7.097403127500474e-7	CD39activatedCD194posTreg_div_activatedCD194posTreg_Frequency

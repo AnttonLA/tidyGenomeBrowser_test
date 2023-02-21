@@ -1,0 +1,6 @@
+chromosome	position	EA	pval	phenotype
+18	36905081	ATATTTATT	7.694342095077646e-7	CD39posCXCR5pos_div_CXCR5pos_Frequency
+18	37430432	C	9.737317720165878e-7	Follicular_Th_HLADRpos_div_Follicular_Ths_Frequency
+18	38414067	T	6.759534981721711e-7	Tpanel_central_memory_CD4pos_div_Tpanel_CD3pos_Frequency
+18	38414585	G	6.066872472711132e-7	Tpanel_central_memory_CD4pos_div_Tpanel_CD3pos_Frequency
+18	38415209	T	6.07784358567575e-7	Tpanel_central_memory_CD4pos_div_Tpanel_CD3pos_Frequency

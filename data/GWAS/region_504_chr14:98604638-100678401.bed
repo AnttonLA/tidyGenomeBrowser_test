@@ -1,0 +1,8 @@
+chromosome	position	EA	pval	phenotype
+14	99104638	G	3.1727432005818654e-7	Bpanel_nonclassical_monocytes_div_Bpanel_CD45pos_Frequency
+14	100178401	G	7.163308594564631e-7	Tpanel_Tregs_div_Tpanel_singlets_Frequency
+14	99613395	A	6.742507264583315e-7	effector_CD4pos_div_CD4pos_Frequency
+14	99652430	A	6.246800639764386e-7	effector_CD4pos_div_CD4pos_Frequency
+14	99668609	A	6.188584132778957e-7	effector_CD4pos_div_CD4pos_Frequency
+14	99684870	A	1.9301274445168988e-7	effector_CD4pos_div_CD4pos_Frequency
+14	99104638	G	2.3746170103202816e-7	nonclassical_monocytes_div_CD19neg_Frequency

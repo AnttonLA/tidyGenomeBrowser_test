@@ -1,0 +1,3 @@
+chromosome	position	EA	pval	phenotype
+7	32421326	C	9.411946272381656e-7	Bpanel_CD56negCD16posNK_div_Bpanel_singlets_Frequency
+7	32546588	T	8.928527810603872e-7	restingTreg_HLADRpos_div_restingTreg_Frequency
