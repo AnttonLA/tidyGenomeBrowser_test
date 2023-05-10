@@ -1,2 +1,2 @@
 
-# Snakemake configuration file
+workdir: "/home/antton/Tiny_Projects/tidyGenomeBrowser_test/"  # Snakemake configuration file
