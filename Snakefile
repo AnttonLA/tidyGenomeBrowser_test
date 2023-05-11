@@ -1,24 +1,41 @@
+import os
 
 configfile: "config.yaml"
 
-input_bed_file = "region_12_chr1:42763250-45199832.gwas"
+input_gwas_file = "region_12_chr1:42763250-45199832.gwas"
+gwas_file_path = os.path.join(config["gwas_dir"], input_gwas_file)
+
+# If no directory 'resources' exists, create it
+if not os.path.exists("resources"):
+    os.makedirs("resources")
+
+########################################################################################################################
+# Pipeline starts here
 
 rule all:
     input:
-        "/home/antton/Desktop/tGB_test_6.png"
+        f"{os.path.splitext(gwas_file_path)[0]}_curated.gwas"
 
-rule curate_bed:
+rule curate_gwas_file:
     input:
-        bed_file = input_bed_file
+        gwas_file_path
+    params:
+        start = None,
+        end = None,
+        pval_threshold = 5e-8,
+        phenotype_file = f"resources/{input_gwas_file}_phenotype_list.txt",
+        phenotype_map_file = f"resources/{input_gwas_file}_phenotype_map.tsv",
     output:
-        bed_file = "curated.bed"
+        f"{os.path.splitext(gwas_file_path)[0]}_curated.gwas"
     shell:
-        ""
+        "python curate_gwas_file.py {input} -r resources -o {output}"
 
 rule create_HiC_file:
-    # TODO: edit so that chr & pos are taken from bed file
+    # TODO: edit so that chr & pos are taken from gwas file
+    input:
+        f"{os.path.splitext(gwas_file_path)[0]}_curated.gwas"
     params:
-        chromosome = "chr1",
+        chromosome = f"{os.path.splitext(gwas_file_path)[0]}_curated.gwas".split("_")[1],
         start = 44612259,
         end = 44719832
     output:

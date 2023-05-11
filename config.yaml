@@ -1,2 +1,4 @@
 
-workdir: "/home/antton/Tiny_Projects/tidyGenomeBrowser_test/"  # Snakemake configuration file
+work_dir: "/home/antton/Tiny_Projects/tidyGenomeBrowser_test/"  # Path to the working directory
+
+gwas_dir: "/home/antton/Tiny_Projects/tidyGenomeBrowser_test/data/GWAS"  # Directory containing the .gwas files

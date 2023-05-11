@@ -40,9 +40,9 @@ parser.add_argument('-e', '--new_end', type=int, default=None,
                          'dropped. Default: None')
 parser.add_argument('-bpc', '--position_column', type=str, default="position",
                     help='Name of column containing the end position. Default: end')
-parser.add_argument('-o', '--output_directory', type=str, default='output',
-                    help='Directory where the output files will be stored. Default: output. Note that the name of the '
-                         'output file will be the same as the input file, with the suffix "_curated".')
+parser.add_argument('-o', '--output_file', type=str, required=True,
+                    help='Name of the curated gwas file. It is recommended to use the same name as the input file, '
+                         'with the suffix "_curated".')
 
 args = parser.parse_args()
 
@@ -91,6 +91,14 @@ if args.phenotype_map is not None:
     # Fill the simplified names with the original names if no mapping was found
     df['simplified_phenotype'] = df['simplified_phenotype'].fillna(df[args.phenotype_column])
 
+else:  # if no map file given but resources directory was specified, create a new map file with the original names
+    if args.resources_directory is not None:
+        phenotype_map_df = pd.DataFrame(df[args.phenotype_column].unique(), columns=['original'])
+        phenotype_map_df['simplified'] = phenotype_map_df['original']
+        phenotype_map_df.to_csv(os.path.join(args.resources_directory,
+                                             f"{os.path.basename(args.gwas_file)}_phenotype_map.tsv"),
+                                sep='\t', index=False, header=False)
+
 # Apply phenotype filter if a file was given
 if args.phenotype_file is not None:
     if not os.path.exists(args.phenotype_file):  # Check that the file exists
@@ -130,4 +138,4 @@ if args.new_start is not None:
 if args.new_end is not None:
     df = df[df[args.position_column] <= args.new_end]
 
-print(df)
+df.to_csv(args.output_file, sep='\t', index=False, header=True)
