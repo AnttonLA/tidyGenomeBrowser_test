@@ -1,47 +1,61 @@
 import os
 
+from curate_gwas_file import curate_gwas_file
+from extract_window import extract_window
+
 configfile: "config.yaml"
 
+
 input_gwas_file = "region_12_chr1:42763250-45199832.gwas"
-gwas_file_path = os.path.join(config["gwas_dir"], input_gwas_file)
+global_gwasfile_path = os.path.join(config["gwas_dir"], input_gwas_file)
 
 # If no directory 'resources' exists, create it
 if not os.path.exists("resources"):
     os.makedirs("resources")
+
+# If no directory 'output' exists, create it
+if not os.path.exists("output"):
+    os.makedirs("output")
+
+# Curate .gwas file before the rules are applied
+argument_list = f"{global_gwasfile_path} -r resources -o data/intermediate/{os.path.splitext(input_gwas_file)[0]}_curated.gwas".split()
+curate_gwas_file(argument_list)
+
+window_file = f"resources/{os.path.splitext(input_gwas_file)[0]}_window_file.tsv"
+print("window_file:", window_file)
+argument_list = f"data/intermediate/{os.path.splitext(input_gwas_file)[0]}_curated.gwas -o {window_file}".split()
+print("argument_list", argument_list)
+extract_window(argument_list)
+
+with open(window_file, "r") as f:
+    line = f.readline()
+    chromosome, start, end = line.split("\t")
+    start = int(start)
+    end = int(end)
+
+os.environ["chromosome"] = chromosome
+os.environ["start"] = str(start)
+os.environ["end"] = str(end)
 
 ########################################################################################################################
 # Pipeline starts here
 
 rule all:
     input:
-        f"{os.path.splitext(gwas_file_path)[0]}_curated.gwas"
+        f"data/intermediate/{os.path.splitext(input_gwas_file)[0]}_curated.gwas"
 
-rule curate_gwas_file:
-    input:
-        gwas_file_path
-    params:
-        start = None,
-        end = None,
-        pval_threshold = 5e-8,
-        phenotype_file = f"resources/{input_gwas_file}_phenotype_list.txt",
-        phenotype_map_file = f"resources/{input_gwas_file}_phenotype_map.tsv",
-    output:
-        f"{os.path.splitext(gwas_file_path)[0]}_curated.gwas"
-    shell:
-        "python curate_gwas_file.py {input} -r resources -o {output}"
 
 rule create_HiC_file:
-    # TODO: edit so that chr & pos are taken from gwas file
     input:
-        f"{os.path.splitext(gwas_file_path)[0]}_curated.gwas"
+        f"resources/{os.path.splitext(input_gwas_file)[0]}_window_file.tsv"
     params:
-        chromosome = f"{os.path.splitext(gwas_file_path)[0]}_curated.gwas".split("_")[1],
-        start = 44612259,
-        end = 44719832
+        chromosome = os.environ["chromosome"],
+        start = os.environ["start"],
+        end = os.environ["end"]
     output:
-        "output/chr1_44612259_44719832.txt"
+        f"resources/{os.environ['chromosome']}_{os.environ['start']}_{os.environ['end']}_HiC.tsv"
     shell:
-        ". /home/antton/Resources/Mifsud_Hi-C/extract_region_HiC.sh {params.chromosome} {params.start} {params.end} {output}"
+        "bash /home/antton/Resources/Mifsud_Hi-C/extract_region_HiC.sh {params.chromosome} {params.start} {params.end}"
 
 # TODO: generate ATAC-seq file
 
