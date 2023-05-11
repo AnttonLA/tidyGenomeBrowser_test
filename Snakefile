@@ -1,7 +1,7 @@
 
 configfile: "config.yaml"
 
-input_bed_file = "region_12_chr1:42763250-45199832.bed"
+input_bed_file = "region_12_chr1:42763250-45199832.gwas"
 
 rule all:
     input:
