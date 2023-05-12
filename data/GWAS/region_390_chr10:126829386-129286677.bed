@@ -1,7 +1,0 @@
-chromosome	position	EA	pval	phenotype
-10	128786677	CTTTTT	1.123306826525583e-7	CD39Th1_div_Th1_Frequency
-10	127800391	TTA	2.362603970531456e-7	HLADRposMonocytes_div_monocytes_Frequency
-10	127329386	T	1.838766762926292e-8	Tpanel_effector_CD4pos_div_Tpanel_CD3pos_Frequency
-10	127330974	A	4.348666464178494e-7	Tpanel_effector_CD4pos_div_Tpanel_CD3pos_Frequency
-10	127742091	G	6.390505533159476e-7	central_memory_CD8pos_HLADRpos_div_central_memory_CD8pos_Frequency
-10	127800391	TTA	2.0327660269986805e-7	classical_monocytes_HLADRpos_div_classical_monocytes_Frequency

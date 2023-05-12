@@ -1,7 +1,0 @@
-chromosome	position	EA	pval	phenotype
-1	1036754	C	3.504117391530672e-7	CD39Th2_div_Th2_Frequency
-1	1113747	T	5.357036518251602e-7	CD39Th2_div_Th2_Frequency
-1	1036754	C	8.345533804581977e-7	CD39Tregs_div_Tregs_Frequency
-1	1113747	T	6.088250301079781e-7	CD39Tregs_div_Tregs_Frequency
-1	1036754	C	5.564589376369622e-7	CD39central_memory_CD4pos_div_central_memory_CD4pos_Frequency
-1	1113747	T	8.50519166433739e-7	CD39central_memory_CD4pos_div_central_memory_CD4pos_Frequency

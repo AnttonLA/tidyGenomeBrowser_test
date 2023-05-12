@@ -1,4 +1,0 @@
-chromosome	position	EA	pval	phenotype
-5	29060223	G	8.084288181272352e-7	Bpanel_preSwitchB_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
-5	29055173	G	7.906907276477941e-7	Th2_HLADRpos_div_Th2_Frequency
-5	29200491	A	6.841380949339819e-7	Th2_HLADRpos_div_Th2_Frequency

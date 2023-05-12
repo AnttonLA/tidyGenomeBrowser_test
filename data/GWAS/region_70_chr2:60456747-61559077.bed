@@ -1,6 +1,0 @@
-chromosome	position	EA	pval	phenotype
-2	60956747	G	7.027148158708202e-7	CXCR5pos_div_CD4pos_Frequency
-2	60956747	G	9.013038059433694e-7	Tpanel_Follicular_Ths_div_Tpanel_CD3pos_Frequency
-2	60956747	G	5.431395181595489e-7	Tpanel_Follicular_Ths_div_Tpanel_CD4pos_Frequency
-2	61050917	G	9.128482721367379e-7	Tpanel_Follicular_Ths_div_Tpanel_CD4pos_Frequency
-2	61059077	G	9.790861882111667e-7	Tpanel_Follicular_Ths_div_Tpanel_CD4pos_Frequency

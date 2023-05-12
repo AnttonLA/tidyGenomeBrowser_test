@@ -1,6 +1,0 @@
-chromosome	position	EA	pval	phenotype
-16	80920090	AG	4.489663124746663e-7	CD39central_memory_CD8pos_div_central_memory_CD8pos_Frequency
-16	80920091	G	6.565939518509909e-7	CD39central_memory_CD8pos_div_central_memory_CD8pos_Frequency
-16	80920091	A	5.79251008919504e-7	CD39central_memory_CD8pos_div_central_memory_CD8pos_Frequency
-16	80920228	C	5.119943189741122e-7	CD39central_memory_CD8pos_div_central_memory_CD8pos_Frequency
-16	81760762	ATAAT	3.737158109540048e-7	CD39restingCD194posTreg_div_restingCD194posTreg_Frequency

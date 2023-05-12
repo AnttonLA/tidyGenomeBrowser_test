@@ -1,9 +1,0 @@
-chromosome	position	EA	pval	phenotype
-11	22952810	T	2.376830133111377e-7	Bpanel_nonclassical_monocytes_div_Bpanel_CD45pos_Frequency
-11	22952811	A	2.3632154034773716e-7	Bpanel_nonclassical_monocytes_div_Bpanel_CD45pos_Frequency
-11	22952811	*	2.376830133111377e-7	Bpanel_nonclassical_monocytes_div_Bpanel_CD45pos_Frequency
-11	23403536	G	6.976534776658283e-7	central_memory_CD8pos_div_CD8pos_Frequency
-11	23403536	GCGC	6.43074816676136e-7	central_memory_CD8pos_div_CD8pos_Frequency
-11	22952810	T	4.7417819700650114e-7	nonclassical_monocytes_div_CD19neg_Frequency
-11	22952811	A	4.7160419153740537e-7	nonclassical_monocytes_div_CD19neg_Frequency
-11	22952811	*	4.7417819700650114e-7	nonclassical_monocytes_div_CD19neg_Frequency

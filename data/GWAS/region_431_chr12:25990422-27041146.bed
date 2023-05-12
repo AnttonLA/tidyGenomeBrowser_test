@@ -1,7 +1,0 @@
-chromosome	position	EA	pval	phenotype
-12	26490422	C	8.067284065912753e-7	Tpanel_Th17_div_Tpanel_CD3pos_Frequency
-12	26490422	T	8.671977492455176e-7	Tpanel_Th17_div_Tpanel_CD3pos_Frequency
-12	26515735	A	8.906874856267058e-7	Tpanel_Th17_div_Tpanel_CD3pos_Frequency
-12	26539729	A	8.567110840581924e-7	Tpanel_Th17_div_Tpanel_CD3pos_Frequency
-12	26541146	TAAAAAA	9.188298634847164e-7	Tpanel_Th17_div_Tpanel_CD3pos_Frequency
-12	26541146	TAAAAA	9.167270643263803e-7	Tpanel_Th17_div_Tpanel_CD3pos_Frequency

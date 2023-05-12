@@ -1,5 +1,0 @@
-chromosome	position	EA	pval	phenotype
-11	44172583	CTT	7.756898907417092e-7	CD39effector_CD4pos_div_effector_CD4pos_Frequency
-11	44172583	CT	7.756898907417092e-7	CD39effector_CD4pos_div_effector_CD4pos_Frequency
-11	43637217	CTTT	7.837032913705041e-7	CXCR5pos_HLADRpos_div_CXCR5pos_Frequency
-11	43695305	A	2.0132994209221988e-7	CXCR5pos_HLADRpos_div_CXCR5pos_Frequency

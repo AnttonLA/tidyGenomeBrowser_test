@@ -1,5 +1,0 @@
-chromosome	position	EA	pval	phenotype
-6	115978472	A	3.5198192218571646e-7	Bpanel_naiveB_div_Bpanel_CD45pos_Frequency
-6	115016208	T	8.25742884681329e-7	naive_CD8pos_HLADRpos_div_naive_CD8pos_Frequency
-6	116325919	G	1.8374803296689644e-7	naive_CD8pos_HLADRpos_div_naive_CD8pos_Frequency
-6	116325919	T	1.8374803296689644e-7	naive_CD8pos_HLADRpos_div_naive_CD8pos_Frequency

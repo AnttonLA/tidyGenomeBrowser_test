@@ -1,5 +1,0 @@
-chromosome	position	EA	pval	phenotype
-9	16181887	C	6.172617258635036e-7	Bpanel_CD56negCD16posNK_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
-9	16181887	C	3.681126250888625e-7	Bpanel_CD56negCD16posNK_div_Bpanel_singlets_Frequency
-9	16677574	AACAAACACAC	8.552129388712292e-7	CD194_Tregs_HLADRpos_div_CD194pos_Frequency
-9	16844655	T	9.345281575344245e-7	CD39posCD3pos_div_CD3pos_Frequency

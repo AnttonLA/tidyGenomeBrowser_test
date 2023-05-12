@@ -1,5 +1,0 @@
-chromosome	position	EA	pval	phenotype
-10	110921968	CT	4.381227684729824e-7	Bpanel_cDC1_div_Bpanel_CD45pos_Frequency
-10	110921968	CT	5.875163454318565e-8	Bpanel_cDC1_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
-10	110921968	CT	3.6479915804019035e-8	Bpanel_cDC1_div_Bpanel_singlets_Frequency
-10	110921968	CT	6.226103773484816e-8	cDC1_div_HLADRpos_Frequency

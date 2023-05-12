@@ -1,4 +1,0 @@
-chromosome	position	EA	pval	phenotype
-22	20802886	A	2.418491678369452e-8	IgApos_HLADRpos_div_IgAPos_Frequency
-22	20802886	A	1.4220305217764093e-8	exhaustedB_HLADRpos_div_exhaustedB_Frequency
-22	20802886	A	7.594032372971372e-7	switchB_HLADRpos_div_switchB_Frequency

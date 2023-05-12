@@ -1,5 +1,0 @@
-chromosome	position	EA	pval	phenotype
-4	188973055	CT	8.464922004906664e-7	Bpanel_preSwitchB_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
-4	188351110	G	1.0796709958821813e-7	CD39central_memory_CD8pos_div_central_memory_CD8pos_Frequency
-4	188353718	A	1.0119974444951116e-7	CD39central_memory_CD8pos_div_central_memory_CD8pos_Frequency
-4	187885610	T	6.938265679055349e-7	CD39effector_memory_CD8pos_div_effector_memory_CD8pos_Frequency

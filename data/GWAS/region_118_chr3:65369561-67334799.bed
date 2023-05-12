@@ -1,4 +1,0 @@
-chromosome	position	EA	pval	phenotype
-3	65869561	G	1.2202203138442057e-7	CXCR5pos_div_CD4pos_Frequency
-3	65869561	G	1.3937841805402254e-7	Tpanel_Follicular_Ths_div_Tpanel_CD4pos_Frequency
-3	66834799	CTT	6.36195096432139e-8	nonclassical_monocytes_HLADRpos_div_nonclassical_monocytes_Frequency

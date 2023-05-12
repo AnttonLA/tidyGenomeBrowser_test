@@ -1,6 +1,0 @@
-chromosome	position	EA	pval	phenotype
-7	142466622	A	2.4951946764476974e-7	Th2_HLADRpos_div_Th2_Frequency
-7	143247665	GAGGA	4.297499523901674e-7	effector_memory_CD4pos_HLADRpos_div_effector_memory_CD4pos_Frequency
-7	143247665	G	4.145681019462161e-7	effector_memory_CD4pos_HLADRpos_div_effector_memory_CD4pos_Frequency
-7	143247667	G	4.30329431813907e-7	effector_memory_CD4pos_HLADRpos_div_effector_memory_CD4pos_Frequency
-7	143247667	*	4.1504101715506974e-7	effector_memory_CD4pos_HLADRpos_div_effector_memory_CD4pos_Frequency

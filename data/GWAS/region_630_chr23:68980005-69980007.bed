@@ -1,9 +1,0 @@
-chromosome	position	EA	pval	phenotype
-23	69480005	AGG	5.183850448597635e-7	Bpanel_naiveB_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
-23	69480005	A	5.182794209186844e-7	Bpanel_naiveB_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
-23	69480007	*	1.0733402482577968e-7	Bpanel_naiveB_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
-23	69480007	*	4.6304569623549047e-7	Bpanel_naiveB_div_Bpanel_singlets_Frequency
-23	69480005	AGG	4.802971289662688e-7	Bpanel_transitionals_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
-23	69480005	A	4.797832342578751e-7	Bpanel_transitionals_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
-23	69480007	*	8.46598745253642e-8	Bpanel_transitionals_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
-23	69480007	*	3.5926044023053257e-7	Bpanel_transitionals_div_Bpanel_singlets_Frequency

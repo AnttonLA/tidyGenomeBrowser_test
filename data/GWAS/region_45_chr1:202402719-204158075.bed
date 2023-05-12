@@ -1,5 +1,0 @@
-chromosome	position	EA	pval	phenotype
-1	203658075	G	6.484688397602338e-7	central_memory_CD8pos_HLADRpos_div_central_memory_CD8pos_Frequency
-1	202902719	A	7.175173355071985e-7	nonclassical_monocytes_HLADRpos_div_nonclassical_monocytes_Frequency
-1	202988721	A	2.641390558337816e-7	nonclassical_monocytes_HLADRpos_div_nonclassical_monocytes_Frequency
-1	203438948	T	7.795964265717154e-7	restingTreg_HLADRpos_div_restingTreg_Frequency

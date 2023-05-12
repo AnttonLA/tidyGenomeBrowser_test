@@ -1,6 +1,0 @@
-chromosome	position	EA	pval	phenotype
-22	37696382	T	2.00799451760322e-7	CD39posCD4negCD8neg_div_CD4negCD8neg_Frequency
-22	37696382	TTTGTTTTTTG	2.047013063843317e-7	CD39posCD4negCD8neg_div_CD4negCD8neg_Frequency
-22	36816043	TTG	4.7585736851992545e-7	Tpanel_central_memory_CD8pos_div_Tpanel_CD3pos_Frequency
-22	36800772	A	6.819760655239656e-7	naive_CD8pos_HLADRpos_div_naive_CD8pos_Frequency
-22	36559114	A	1.4850929431719894e-7	nonclassical_monocytes_HLADRpos_div_nonclassical_monocytes_Frequency

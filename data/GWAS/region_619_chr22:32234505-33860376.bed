@@ -1,8 +1,0 @@
-chromosome	position	EA	pval	phenotype
-22	33360376	T	2.46970166034791e-7	Bpanel_classical_monocytes_div_Bpanel_monocytes_Frequency
-22	33360376	T	2.470083890972596e-7	Bpanel_nonclassical_monocytes_div_Bpanel_monocytes_Frequency
-22	32734505	GCAGGCAGGCAGACAGA	5.552778620984085e-7	Tpanel_central_memory_CD8pos_div_Tpanel_CD3pos_Frequency
-22	32734505	G	4.4629811643444713e-7	central_memory_CD8pos_div_CD8pos_Frequency
-22	32734505	GCAGGCAGGCAGACAGA	6.693390300397918e-8	central_memory_CD8pos_div_CD8pos_Frequency
-22	32734509	A	1.996600215426837e-7	central_memory_CD8pos_div_CD8pos_Frequency
-22	32734513	A	7.460352938420109e-7	central_memory_CD8pos_div_CD8pos_Frequency

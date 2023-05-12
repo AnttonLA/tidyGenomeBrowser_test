@@ -1,6 +1,0 @@
-chromosome	position	EA	pval	phenotype
-10	67777076	T	3.740226287336374e-7	Bpanel_IgApos_div_Bpanel_CD45pos_Frequency
-10	68533171	G	9.74126337066844e-7	exhaustedB_HLADRpos_div_exhaustedB_Frequency
-10	68533171	T	9.733707337388417e-7	exhaustedB_HLADRpos_div_exhaustedB_Frequency
-10	68533171	G	5.371501355515628e-7	plasmablasts_HLADRpos_div_plasmablasts_Frequency
-10	68533171	T	5.365933328246322e-7	plasmablasts_HLADRpos_div_plasmablasts_Frequency

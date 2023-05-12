@@ -1,8 +1,0 @@
-chromosome	position	EA	pval	phenotype
-18	4003435	T	7.913759654453773e-8	Bpanel_classical_monocytes_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
-18	4003435	TTG	7.913759654453773e-8	Bpanel_classical_monocytes_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
-18	4003435	T	2.1212469681790567e-7	Bpanel_classical_monocytes_div_Bpanel_singlets_Frequency
-18	4003435	TTG	2.1212469681790567e-7	Bpanel_classical_monocytes_div_Bpanel_singlets_Frequency
-18	4003435	T	3.8177212403968507e-7	Bpanel_monocytes_div_Bpanel_singlets_Frequency
-18	4003435	TTG	3.8177212403968507e-7	Bpanel_monocytes_div_Bpanel_singlets_Frequency
-18	3366659	AAAT	5.051380465408932e-7	Tpanel_Th17_div_Tpanel_CD3pos_Frequency

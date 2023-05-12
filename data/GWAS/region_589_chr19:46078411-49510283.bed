@@ -1,7 +1,0 @@
-chromosome	position	EA	pval	phenotype
-19	46578411	T	2.0086178960201074e-7	CD3pos_HLADRpos_div_CD3pos_Frequency
-19	47903339	T	4.997627864739696e-7	Th17_div_non_naive_T_Frequency
-19	48057585	G	8.43439313081904e-7	Tregs_HLADRpos_div_Tregs_Frequency
-19	48062384	C	9.292530254123687e-7	Tregs_HLADRpos_div_Tregs_Frequency
-19	49010283	C	2.712586587600133e-7	doublePosNK_div_CD14neg_Frequency
-19	46912118	T	7.026674117783876e-7	restingCD194posTreg_div_CD194pos_Frequency

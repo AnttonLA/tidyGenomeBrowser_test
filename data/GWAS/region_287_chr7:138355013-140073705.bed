@@ -1,4 +1,0 @@
-chromosome	position	EA	pval	phenotype
-7	138855013	T	5.155640156332459e-7	Bpanel_nonclassical_monocytes_div_Bpanel_CD45pos_Frequency
-7	139573705	C	4.6088476016294165e-7	doublePosNK_div_CD14neg_Frequency
-7	138855013	T	9.203202806571566e-7	nonclassical_monocytes_div_CD19neg_Frequency

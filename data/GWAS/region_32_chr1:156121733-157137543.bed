@@ -1,9 +1,0 @@
-chromosome	position	EA	pval	phenotype
-1	156621733	GA	6.986678884224251e-7	CD4CD8_doubleneg_HLADRpos_div_CD4negCD8neg_Frequency
-1	156630048	G	8.487546524367349e-7	CD4CD8_doubleneg_HLADRpos_div_CD4negCD8neg_Frequency
-1	156636349	C	1.963515532355518e-7	CD4CD8_doubleneg_HLADRpos_div_CD4negCD8neg_Frequency
-1	156636353	A	1.9643282934436737e-7	CD4CD8_doubleneg_HLADRpos_div_CD4negCD8neg_Frequency
-1	156636354	C	1.9645315363954025e-7	CD4CD8_doubleneg_HLADRpos_div_CD4negCD8neg_Frequency
-1	156637216	C	4.024809740342683e-7	CD4CD8_doubleneg_HLADRpos_div_CD4negCD8neg_Frequency
-1	156637216	T	4.024809740342683e-7	CD4CD8_doubleneg_HLADRpos_div_CD4negCD8neg_Frequency
-1	156637543	C	1.8094256276352083e-7	CD4CD8_doubleneg_HLADRpos_div_CD4negCD8neg_Frequency

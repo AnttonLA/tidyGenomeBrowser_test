@@ -1,4 +1,0 @@
-chromosome	position	EA	pval	phenotype
-8	141459872	T	3.3956535191190666e-7	Tpanel_CD3pos_div_Tpanel_CD3neg_Ratio
-8	142365600	A	6.055374644418927e-7	Tpanel_Th1_div_Tpanel_CD3pos_Frequency
-8	142365602	*	5.649906526645424e-7	Tpanel_Th1_div_Tpanel_CD3pos_Frequency

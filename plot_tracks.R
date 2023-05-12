@@ -3,11 +3,12 @@
 library(optparse)
 
 # This script uses the tidyGenomeBrowser package to plot genomic regions. It is mainly intended to be used to visualize
-# genetic variants discovered by GWAS. The script takes a BED file containing genomic positions as input, and plots the
+# genetic variants discovered by GWAS. The script takes a .gwas file containing genomic positions as input, and plots the
 # variants together with additional data (genes, Hi-C, ATAC-seq). The script is intended to be run from the command line.
 
 option_list <- list(
-  make_option(c("-b", "--bed"), type="character", default=NULL, help="BED file containing the genomic positions to be plotted"),
+  make_option(c("-g", "--gwas"), type="character", default=NULL, help=".gwas file containing the genomic positions to be plotted"),
+  make_option(c("-p", "--padding"), type="integer", default=100000, help="Padding around the genomic region to be plotted (default: 100000)"),
   make_option(c("-c", "--hic"), type="character", default=NULL, help="Hi-C data file name"),
   make_option(c("-a", "--atac"), type="character", default=NULL, help="ATAC-seq data file name"),
   make_option(c("-t", "--celltypes"), type="character", default=NULL, help="Cell types to be plotted"),
@@ -15,13 +16,13 @@ option_list <- list(
 )
 
 help_txt <- "This script uses the tidyGenomeBrowser package to plot genomic regions. It is mainly intended to be used to visualize
-genetic variants discovered by GWAS. The script takes a BED file containing genomic positions as input, and plots the
+genetic variants discovered by GWAS. The script takes a .gwas file containing genomic positions as input, and plots the
 variants together with additional data (genes, Hi-C, ATAC-seq). The script is intended to be run from the command line."
 opt_parser <- OptionParser(option_list=option_list, description=help_txt)
 args <- parse_args(opt_parser)
 
-if (is.null(args$bed)) {
-  stop("BED file not specified! Use -b or --bed to specify the BED file.")
+if (is.null(args$gwas)) {
+  stop(".gwas file not specified! Use -g or --gwas to specify the .gwas file.")
 }
 
 if (is.null(args$output)) {
@@ -69,10 +70,10 @@ compose_and_save_plot <- function(args, plot_stack, output_file) {
 }
 
 ########################################################################################################################
-# Load GWAS data from BED file
-bed_file <- args$bed
+# Load GWAS data from .gwas file
+gwas_file <- args$gwas
 
-gwas_gp <- bed_file |>
+gwas_gp <- gwas_file |>
     read.table(header=TRUE) |>
     makeGRangesFromDataFrame(start.field = "position",
                              end.field = "position",
@@ -84,27 +85,26 @@ gwas_gp <- bed_file |>
 
 seqlevelsStyle(gwas_gp) <- "UCSC"
 
-# TODO: this processing is outside the scope of this script. It should get a BED with simplified names already.
+# TODO: this processing is outside the scope of this script. It should get a .gwas file with simplified names already.
 # use str_replace_all() with regular expressions to replace multiple patterns in the 'phenotype' strings
-mcols(gwas_gp)$facet <- str_replace_all(mcols(gwas_gp)$facet,
-                                            pattern = c("Bpanel_" = "",
-                                                        "Tpanel_" = "",
-                                                        "_div_" = "/",
-                                                        "_Frequency$" = " Freq.",
-                                                        "classical_monocytes" = "Classic Mono.",
-                                                        "doublePosNK" = "PosPosNK",
-                                                        "pos" = "+",
-                                                        "neg" = "-",
-                                                        "pl" = "&",
-                                                        "_" = " "))
-# TODO: remove this line, it is only for testing
+# mcols(gwas_gp)$facet <- str_replace_all(mcols(gwas_gp)$facet,
+#                                             pattern = c("Bpanel_" = "",
+#                                                         "Tpanel_" = "",
+#                                                         "_div_" = "/",
+#                                                         "_Frequency$" = " Freq.",
+#                                                         "classical_monocytes" = "Classic Mono.",
+#                                                         "doublePosNK" = "PosPosNK",
+#                                                         "pos" = "+",
+#                                                         "neg" = "-",
+#                                                         "pl" = "&",
+#                                                         "_" = " "))
+
 # TODO: include a check for the a max number of phenotypes and a max width of the genomic region
-gwas_gp <- gwas_gp[gwas_gp$phenotype != c("Bpanel_pDC_div_Bpanel_CD45pos_Frequency", "Tpanel_CD3pos_div_Tpanel_CD3neg_Ratio"),]
 
 
-pad <- 1e4
+pad <- args$padding
 w <- GenomicRanges::reduce(as(gwas_gp, "GRanges"), min.gapwidth=1e6) + pad
-# TODO: make the padding an input parameter
+
 ########################################################################################################################
 # GWAS Track
 gwas_track <- browsePositions(gwas_gp, region=w) +
@@ -131,7 +131,8 @@ seqlevelsStyle(gene_models) <- "UCSC"  # Set the style of the sequence levels in
 # Change the names of the meta_models to gene symbols
 names(gene_models) <- mapIds(org.Hs.eg.db, keys = names(gene_models), keytype = "ENTREZID", column = "SYMBOL")
 gene_track <- gene_models |>
-    browseTranscripts(region=w)
+    browseTranscripts(region=w) +
+    ylab("Genes") +
 
 
 if (is.null(args$hic) & is.null(args$atac)) {
@@ -145,6 +146,7 @@ if (is.null(args$hic) & is.null(args$atac)) {
 
 ########################################################################################################################
 # Hi-C Track
+if (!is.null(args$hic)) {
 hic_df <- args$hic |>
     read.table(sep="\t", header=TRUE) |>
     # Rename columns because 'start' and 'end' are reserved words
@@ -155,6 +157,7 @@ other_gr <- GRanges(hic_df$chr_other, IRanges(hic_df$start_other, hic_df$end_oth
 
 hic_gi <- GInteractions(bait_gr, other_gr, score=hic_df$score)
 hic_track <- browseInteractions(hic_gi, region=w)
+}
 
 if (is.null(args$atac)) {
   # If no ATAC-seq file was given, plot GWAS + gene + Hi-C tracks
@@ -202,7 +205,14 @@ ATAC_cols <- c(HSC="black",
                Plasma="skyblue")
 
 # TODO: change this to use the input instead
-pops_to_plot <- c('HSC', 'LMPP', 'CLP', 'NK', 'CD4', 'CD8', 'Bcell', 'mDC', 'pDC')
+if (is.null(args$celltypes)) {
+  # If no celltypes were given, plot all of them
+  pops_to_plot <- unique(atac_gr$color)
+} else {
+  # Otherwise, plot only the ones given
+# TODO: safety check. What happens if file has celltypes that do not exist?
+  pops_to_plot <- readLines(args$celltypes)
+}
 # Subset to only the populations we want to plot
 atac_gr <- atac_gr[atac_gr$color %in% pops_to_plot]
 ATAC_cols <- ATAC_cols[pops_to_plot]

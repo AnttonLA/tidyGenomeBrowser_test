@@ -1,6 +1,0 @@
-chromosome	position	EA	pval	phenotype
-17	71336020	ACACACACACACACACACC	3.258673674243009e-7	CD39effector_memory_CD4pos_div_effector_memory_CD4pos_Frequency
-17	71336020	ACACACACACACACACACC	7.118428232303717e-7	CD39secretingCD194posTreg_div_secretingCD194posTreg_Frequency
-17	72225669	T	8.883872081958498e-7	effector_memory_CD8pos_div_CD8pos_Frequency
-17	72225669	TA	3.0374563536802877e-7	effector_memory_CD8pos_div_CD8pos_Frequency
-17	72232703	T	9.523083443750053e-7	effector_memory_CD8pos_div_CD8pos_Frequency

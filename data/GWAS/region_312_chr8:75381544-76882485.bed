@@ -1,7 +1,0 @@
-chromosome	position	EA	pval	phenotype
-8	75881544	A	4.290115834950419e-7	Bpanel_classical_monocytes_div_Bpanel_monocytes_Frequency
-8	76180560	C	3.1645710614074617e-7	Bpanel_classical_monocytes_div_Bpanel_monocytes_Frequency
-8	76382485	T	1.963921870760226e-7	Bpanel_classical_monocytes_div_Bpanel_monocytes_Frequency
-8	75881544	A	4.29387729988972e-7	Bpanel_nonclassical_monocytes_div_Bpanel_monocytes_Frequency
-8	76180560	C	3.167832460364663e-7	Bpanel_nonclassical_monocytes_div_Bpanel_monocytes_Frequency
-8	76382485	T	1.9659446572879185e-7	Bpanel_nonclassical_monocytes_div_Bpanel_monocytes_Frequency

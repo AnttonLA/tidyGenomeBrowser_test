@@ -1,9 +1,0 @@
-chromosome	position	EA	pval	phenotype
-9	130048742	G	2.931829627326616e-7	HLADRposCD56negCD16posNK_div_CD56negCD16posNK_Frequency
-9	130058274	T	2.840090071621524e-7	HLADRposCD56negCD16posNK_div_CD56negCD16posNK_Frequency
-9	129530688	G	6.059264542787478e-7	effector_CD8pos_HLADRpos_div_effector_CD8pos_Frequency
-9	129530689	T	4.4847788597575216e-7	effector_CD8pos_HLADRpos_div_effector_CD8pos_Frequency
-9	129530690	C	1.693873601860384e-7	effector_CD8pos_HLADRpos_div_effector_CD8pos_Frequency
-9	129530690	T	4.401187740123475e-7	effector_CD8pos_HLADRpos_div_effector_CD8pos_Frequency
-9	129530691	T	4.4847788597575216e-7	effector_CD8pos_HLADRpos_div_effector_CD8pos_Frequency
-9	129530692	A	4.4847788597575216e-7	effector_CD8pos_HLADRpos_div_effector_CD8pos_Frequency

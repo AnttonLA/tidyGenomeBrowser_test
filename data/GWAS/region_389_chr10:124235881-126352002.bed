@@ -1,6 +1,0 @@
-chromosome	position	EA	pval	phenotype
-10	125155092	T	6.126320870816724e-7	Bpanel_cDC2_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
-10	124735881	A	9.683232292706342e-7	CD39posCD3pos_div_CD3pos_Frequency
-10	124883669	G	7.175918116774134e-7	Tregs_HLADRpos_div_Tregs_Frequency
-10	125852002	C	8.10177404526871e-7	nonclassical_monocytes_HLADRpos_div_nonclassical_monocytes_Frequency
-10	125852002	G	8.10177404526871e-7	nonclassical_monocytes_HLADRpos_div_nonclassical_monocytes_Frequency

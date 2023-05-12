@@ -1,5 +1,0 @@
-chromosome	position	EA	pval	phenotype
-19	12297989	CAGAGAGAGAGAGAG	5.24910180901753e-7	naive_CD4pos_HLADRpos_div_naive_CD4pos_Frequency
-19	12297990	A	3.991948761098603e-7	naive_CD4pos_HLADRpos_div_naive_CD4pos_Frequency
-19	12297990	*	5.24910180901753e-7	naive_CD4pos_HLADRpos_div_naive_CD4pos_Frequency
-19	12297991	*	5.27132629969367e-7	naive_CD4pos_HLADRpos_div_naive_CD4pos_Frequency

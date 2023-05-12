@@ -1,5 +1,0 @@
-chromosome	position	EA	pval	phenotype
-15	101525946	CA	9.961915294778161e-7	Bpanel_doublePosNK_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
-15	101526093	G	9.872234763142332e-7	Bpanel_doublePosNK_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
-15	101511509	AAATATATATATAT	4.0717788306863674e-7	naive_CD8pos_HLADRpos_div_naive_CD8pos_Frequency
-15	101532132	T	2.9219395104697603e-7	naive_CD8pos_HLADRpos_div_naive_CD8pos_Frequency

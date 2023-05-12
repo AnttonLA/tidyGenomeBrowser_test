@@ -1,4 +1,0 @@
-chromosome	position	EA	pval	phenotype
-8	30964609	A	7.788424900038039e-7	Th2_div_non_naive_T_Frequency
-8	30964609	A	1.632275264428711e-7	Tpanel_CD3pos_div_Tpanel_CD3neg_Ratio
-8	30967342	A	3.0930409467102074e-7	central_memory_CD4pos_div_CD4pos_Frequency

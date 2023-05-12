@@ -1,4 +1,0 @@
-chromosome	position	EA	pval	phenotype
-21	23452496	G	1.845528828297891e-7	HLADRpos_div_doubleNegNK_Frequency
-21	23475350	T	6.842517023982026e-7	Tpanel_Tregs_div_Tpanel_singlets_Frequency
-21	23475350	*	7.976213790032838e-7	Tpanel_Tregs_div_Tpanel_singlets_Frequency

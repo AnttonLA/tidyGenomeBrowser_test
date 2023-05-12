@@ -1,8 +1,0 @@
-chromosome	position	EA	pval	phenotype
-10	77506750	A	4.207664294562417e-7	CD19pos_HLADRpos_div_CD19pos_Frequency
-10	77517205	G	7.525211510476058e-7	CD19pos_HLADRpos_div_CD19pos_Frequency
-10	77538961	T	2.0201561834467517e-7	CD19pos_HLADRpos_div_CD19pos_Frequency
-10	77572569	CATATATATATATATATATATATATAT	9.176191629714422e-7	Tpanel_central_memory_CD4pos_div_Tpanel_CD3pos_Frequency
-10	77506750	A	3.4071617889100164e-7	exhaustedB_HLADRpos_div_exhaustedB_Frequency
-10	77517205	G	9.166190046966046e-7	exhaustedB_HLADRpos_div_exhaustedB_Frequency
-10	77538961	T	2.0286194221807243e-7	exhaustedB_HLADRpos_div_exhaustedB_Frequency

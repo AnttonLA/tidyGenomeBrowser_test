@@ -1,7 +1,0 @@
-chromosome	position	EA	pval	phenotype
-8	121516975	A	4.6475183380391485e-7	Bpanel_CD56posNKT_div_Bpanel_CD45posplBpanel_CD3pos_Frequency
-8	121516975	A	3.387890099793515e-7	Bpanel_CD56posNKT_div_Bpanel_singlets_Frequency
-8	121516975	A	5.092049878979123e-7	CD56posNKT_div_CD3pos_Frequency
-8	122341844	CAAAAAAAAAAAAAA	2.68356511551373e-7	CD8pos_HLADRpos_div_CD8pos_Frequency
-8	122407079	T	9.679712404385322e-7	activatedTreg_HLADRpos_div_activatedTreg_Frequency
-8	122407079	T	5.589753170347504e-7	central_memory_CD8pos_HLADRpos_div_central_memory_CD8pos_Frequency

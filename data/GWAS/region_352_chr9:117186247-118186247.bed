@@ -1,5 +1,0 @@
-chromosome	position	EA	pval	phenotype
-9	117686247	G	8.371677765371394e-9	effector_memory_CD4pos_div_CD4pos_Frequency
-9	117686247	GTATA	1.1239754767250396e-8	effector_memory_CD4pos_div_CD4pos_Frequency
-9	117686247	G	1.8038085604080186e-9	non_naive_T_div_CD4pos_Frequency
-9	117686247	GTATA	4.613985423278575e-9	non_naive_T_div_CD4pos_Frequency
