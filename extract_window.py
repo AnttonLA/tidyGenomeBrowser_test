@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 """
-T&his script takes a .gwas file and creates a new txt file that contains only its chromosome amd minumum and maximum
+T&his script takes a .gwas file and creates a new txt file that contains only its chromosome and minumum and maximum
 positions.
 """
 

@@ -4,7 +4,7 @@ library(optparse)
 
 # This script uses the tidyGenomeBrowser package to plot genomic regions. It is mainly intended to be used to visualize
 # genetic variants discovered by GWAS. The script takes a .gwas file containing genomic positions as input, and plots the
-# variants together with additional data (genes, Hi-C, ATAC-seq). The script is intended to be run from the command line.
+# variants together with additional data (genes, PCHi-C, ATAC-seq). The script is intended to be run from the command line.
 
 option_list <- list(
   make_option(c("-g", "--gwas"), type="character", default=NULL, help=".gwas file containing the genomic positions to be plotted"),
@@ -17,7 +17,7 @@ option_list <- list(
 
 help_txt <- "This script uses the tidyGenomeBrowser package to plot genomic regions. It is mainly intended to be used to visualize
 genetic variants discovered by GWAS. The script takes a .gwas file containing genomic positions as input, and plots the
-variants together with additional data (genes, Hi-C, ATAC-seq). The script is intended to be run from the command line."
+variants together with additional data (genes, PCHi-C, ATAC-seq). The script is intended to be run from the command line."
 opt_parser <- OptionParser(option_list=option_list, description=help_txt)
 args <- parse_args(opt_parser)
 

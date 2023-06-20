@@ -6,10 +6,20 @@ from extract_window import extract_window
 configfile: "config.yaml"
 
 
-input_gwas_file = "region_36_chr1:165441996-166819395.gwas"#"region_2_chr1:4168331-5168331.gwas" #"region_12_chr1:42763250-45199832.gwas"
+input_gwas_file = "region_12_chr1:42763250-45199832.gwas" #"region_2_chr1:4168331-5168331.gwas"#"region_36_chr1:165441996-166819395.gwas"
+# NOTE: when changing the file name, remember to change the filters specified for curate_gwas_file() further down !
+
+# If you want to narrow the genomic window, you can use these variables. Otherwise, set them to None
+window_start = 44_600_000  # None
+window_end = 44_700_000  # None
+
 global_gwasfile_path = os.path.join(config["gwas_dir"], input_gwas_file)
 
-run_name = os.path.splitext(input_gwas_file)[0]
+# Check that the input file exists
+if not os.path.exists(global_gwasfile_path):
+    raise FileNotFoundError(f"File {global_gwasfile_path} does not exist!")
+
+run_name = os.path.splitext(input_gwas_file)[0]  # Same as input file name without the extension
 
 # If no directory 'output' exists, create it
 if not os.path.exists("output"):
@@ -21,20 +31,24 @@ if not os.path.exists(f"output/{run_name}"):
 
 run_dir = f"output/{run_name}"
 
-# Curate .gwas file before the rules are applied
+# Curate .gwas file before the Snakemake rules are applied. This uses 'curate_gwas_file()'
 curated_gwas_file = f"{run_dir}/{os.path.splitext(input_gwas_file)[0]}_curated.gwas"
 argument_str = f"{global_gwasfile_path} "\
                f"-r {run_dir} "\
-               f"-s {166000000} "\
+               f"-s {window_start} "\
+               f"-e {window_end} "\
                f"-o {curated_gwas_file}"
 
 argument_list = argument_str.split()
 curate_gwas_file(argument_list)
 
+# Extract the genomic window from the curated .gwas file. This uses 'extract_window()'
 window_file = f"{run_dir}/{os.path.splitext(input_gwas_file)[0]}_window_file.tsv"
 argument_list = f"{curated_gwas_file} -o {window_file}".split()
+
 extract_window(argument_list)
 
+# Read the window file and set the environment variables
 with open(window_file, "r") as f:
     line = f.readline()
     chromosome, start, end = line.split("\t")
@@ -95,12 +109,10 @@ rule create_cell_types_file:
 rule draw_plot:
     input:
         gwas_file = curated_gwas_file,
-        #hic_file = f"{run_dir}/chr{chromosome}_{start}_{end}_HiC.tsv",
+        hic_file = f"{run_dir}/chr{chromosome}_{start}_{end}_HiC.tsv",
         atac_file = f"{run_dir}/chr{chromosome}_{start}_{end}_ATAC.tsv",
         celltypes_file = f"{run_dir}/cell_types.txt"
     output:
         f"{run_dir}/{run_name}_plot.png"
     shell:
-        "mamba run -n tidygenomebrowser_env Rscript plot_tracks.R -g {input.gwas_file} -a {input.atac_file} -t {input.celltypes_file} -o {output}"
-
-#-c {input.hic_file}
+        "mamba run -n tidygenomebrowser_env Rscript plot_tracks.R -g {input.gwas_file} -c {input.hic_file} -a {input.atac_file} -t {input.celltypes_file} -p 10000 -o {output}"
