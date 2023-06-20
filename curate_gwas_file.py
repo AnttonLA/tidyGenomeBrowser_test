@@ -41,7 +41,7 @@ def curate_gwas_file(raw_args=None):
                         help='New rightmost limit for the genomic window. Positions larger than the limit will be '
                              'dropped. Default: None')
     parser.add_argument('-bpc', '--position_column', type=str, default="position",
-                        help='Name of column containing the end position. Default: end')
+                        help='Name of column containing the end position. Default: position')
     parser.add_argument('-o', '--output_file', type=str, required=True,
                         help='Name of the curated gwas file. It is recommended to use the same name as the input file, '
                              'with the suffix "_curated".')
@@ -76,6 +76,8 @@ def curate_gwas_file(raw_args=None):
                 f"Phenotype map file {args.phenotype_map} does not have two columns. Please ensure that the "
                 f"map file is a tab-separated file with two columns, the first one containing the original "
                 f"phenotype names and the second one containing the simplified names.")
+
+        sys.stdout.write(f"Phenotype map file '{args.phenotype_map}' found. Applying phenotype name map.\n")
 
         # Check that the phenotypes are present in the gwas file
         for phenotype in phenotype_map_df[0].tolist():

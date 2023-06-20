@@ -31,12 +31,17 @@ if not os.path.exists(f"output/{run_name}"):
 
 run_dir = f"output/{run_name}"
 
+# Create a 'resources/' directory in the run-specific directory
+if not os.path.exists(f"{run_dir}/resources"):
+    os.makedirs(f"{run_dir}/resources")
+
 # Curate .gwas file before the Snakemake rules are applied. This uses 'curate_gwas_file()'
 curated_gwas_file = f"{run_dir}/{os.path.splitext(input_gwas_file)[0]}_curated.gwas"
 argument_str = f"{global_gwasfile_path} "\
-               f"-r {run_dir} "\
+               f"-r {run_dir}/resources "\
                f"-s {window_start} "\
                f"-e {window_end} "\
+               f"-fm {run_dir}/resources/region_12_chr1:42763250-45199832.gwas_phenotype_map.tsv "\
                f"-o {curated_gwas_file}"
 
 argument_list = argument_str.split()

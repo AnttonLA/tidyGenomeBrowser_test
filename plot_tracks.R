@@ -7,8 +7,14 @@ library(optparse)
 # variants together with additional data (genes, PCHi-C, ATAC-seq). The script is intended to be run from the command line.
 
 option_list <- list(
-  make_option(c("-g", "--gwas"), type="character", default=NULL, help=".gwas file containing the genomic positions to be plotted"),
-  make_option(c("-p", "--padding"), type="integer", default=100000, help="Padding around the genomic region to be plotted (default: 100000)"),
+  make_option(c("-g", "--gwas"), type="character", default=NULL,
+              help=".gwas file containing the genomic positions to be plotted"),
+  make_option(c("-gpn", "--gwas_pos_name"), type="character", default="position",
+              help="Name of the column in the .gwas file containing the genomic positions (default: 'position')"),
+  make_option(c("-gtn", "--gwas_trait_name"), type="character", default="phenotype",
+              help="Name of the column in the .gwas file containing the phenotype/trait names (default: 'phenotype')"),
+  make_option(c("-p", "--padding"), type="integer", default=100000,
+              help="Padding around the genomic region to be plotted (default: 100000)"),
   make_option(c("-c", "--hic"), type="character", default=NULL, help="Hi-C data file name"),
   make_option(c("-a", "--atac"), type="character", default=NULL, help="ATAC-seq data file name"),
   make_option(c("-t", "--celltypes"), type="character", default=NULL, help="Cell types to be plotted"),
@@ -75,13 +81,13 @@ gwas_file <- args$gwas
 
 gwas_gp <- gwas_file |>
     read.table(header=TRUE) |>
-    makeGRangesFromDataFrame(start.field = "position",
-                             end.field = "position",
+    makeGRangesFromDataFrame(start.field = args$gwas_pos_name,
+                             end.field = args$gwas_pos_name,
                              keep.extra.columns = TRUE) |>
     as("GPos") |>
     transform(score=-log10(pval),
-              color=phenotype,
-              facet=phenotype)
+              color=args$gwas_trait_name,
+              facet=args$gwas_trait_name)
 
 seqlevelsStyle(gwas_gp) <- "UCSC"
 
