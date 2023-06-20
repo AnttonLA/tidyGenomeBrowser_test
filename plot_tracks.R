@@ -9,9 +9,9 @@ library(optparse)
 option_list <- list(
   make_option(c("-g", "--gwas"), type="character", default=NULL,
               help=".gwas file containing the genomic positions to be plotted"),
-  make_option(c("-gpn", "--gwas_pos_name"), type="character", default="position",
+  make_option(c("-n", "--gwas_position_name"), type="character", default="position",
               help="Name of the column in the .gwas file containing the genomic positions (default: 'position')"),
-  make_option(c("-gtn", "--gwas_trait_name"), type="character", default="phenotype",
+  make_option(c("-y", "--gwas_phenotype_name"), type="character", default="phenotype",
               help="Name of the column in the .gwas file containing the phenotype/trait names (default: 'phenotype')"),
   make_option(c("-p", "--padding"), type="integer", default=100000,
               help="Padding around the genomic region to be plotted (default: 100000)"),
@@ -81,13 +81,13 @@ gwas_file <- args$gwas
 
 gwas_gp <- gwas_file |>
     read.table(header=TRUE) |>
-    makeGRangesFromDataFrame(start.field = args$gwas_pos_name,
-                             end.field = args$gwas_pos_name,
+    makeGRangesFromDataFrame(start.field = args$gwas_position_name,
+                             end.field = args$gwas_position_name,
                              keep.extra.columns = TRUE) |>
     as("GPos") |>
     transform(score=-log10(pval),
-              color=args$gwas_trait_name,
-              facet=args$gwas_trait_name)
+              color=get(args$gwas_phenotype_name),  # This cannot be a string, it has to be a column name
+              facet=get(args$gwas_phenotype_name))
 
 seqlevelsStyle(gwas_gp) <- "UCSC"
 

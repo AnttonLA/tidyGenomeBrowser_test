@@ -6,12 +6,9 @@ from extract_window import extract_window
 configfile: "config.yaml"
 
 
-input_gwas_file = "region_12_chr1:42763250-45199832.gwas" #"region_2_chr1:4168331-5168331.gwas"#"region_36_chr1:165441996-166819395.gwas"
+input_gwas_file = "region_547_chr17:34002272-35994893.gwas" #"region_12_chr1:42763250-45199832.gwas" #"region_2_chr1:4168331-5168331.gwas"#"region_36_chr1:165441996-166819395.gwas"
 # NOTE: when changing the file name, remember to change the filters specified for curate_gwas_file() further down !
 
-# If you want to narrow the genomic window, you can use these variables. Otherwise, set them to None
-window_start = 44_600_000  # None
-window_end = 44_700_000  # None
 
 global_gwasfile_path = os.path.join(config["gwas_dir"], input_gwas_file)
 
@@ -37,12 +34,16 @@ if not os.path.exists(f"{run_dir}/resources"):
 
 # Curate .gwas file before the Snakemake rules are applied. This uses 'curate_gwas_file()'
 curated_gwas_file = f"{run_dir}/{os.path.splitext(input_gwas_file)[0]}_curated.gwas"
+# NOTE: the user is expected to edit this argument string frequently, depending on the input file
 argument_str = f"{global_gwasfile_path} "\
                f"-r {run_dir}/resources "\
-               f"-s {window_start} "\
-               f"-e {window_end} "\
-               f"-fm {run_dir}/resources/region_12_chr1:42763250-45199832.gwas_phenotype_map.tsv "\
-               f"-o {curated_gwas_file}"
+               f"-o {curated_gwas_file} " \
+               f"-f {run_dir}/resources/{input_gwas_file}_phenotype_list.txt " \
+               f"-fm {run_dir}/resources/{input_gwas_file}_phenotype_map.tsv "\
+               f"-s {35_400_000} " \
+               f"-e {35_600_000} " \
+               f"-p 10E-20" \
+
 
 argument_list = argument_str.split()
 curate_gwas_file(argument_list)
@@ -120,4 +121,4 @@ rule draw_plot:
     output:
         f"{run_dir}/{run_name}_plot.png"
     shell:
-        "mamba run -n tidygenomebrowser_env Rscript plot_tracks.R -g {input.gwas_file} -c {input.hic_file} -a {input.atac_file} -t {input.celltypes_file} -p 10000 -o {output}"
+        "mamba run -n tidygenomebrowser_env Rscript plot_tracks.R -g {input.gwas_file} -y simplified_phenotype -c {input.hic_file} -a {input.atac_file} -t {input.celltypes_file} -p 15000 -o {output}"
